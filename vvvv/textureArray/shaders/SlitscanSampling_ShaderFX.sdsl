@@ -1,0 +1,26 @@
+shader SlitscanSampling_ShaderFX : ComputeFloat4, ShaderBaseStream, Texturing
+{
+    compose ComputeFloat4 ShaderInput;
+
+    cbuffer PerMaterial //when used in materials
+    {
+        stage uint ArrayTextureSize = 1;
+        //stage float ScalarInput; //just for reference, it is often easier to create a ComputeFloat shader input and connect a ValueIn or ValueMap node
+    }
+
+    rgroup PerMaterial //when used in materials
+    {
+        stage Texture2DArray ArrayTexture;
+    }
+
+    override float4 Compute()
+    {
+        // evaluate that shader graph above this node
+        float4 mask = ShaderInput.Compute();
+        //use those values (they go from 0 to 1) as y value
+        //for the texture lookup of the secound texture
+        float depth = ((mask.r * ArrayTextureSize + streams.InstanceID) % ArrayTextureSize) / ArrayTextureSize;
+        float3 uvz = float3(streams.TexCoord, depth);
+        return ArrayTexture.Sample(LinearSampler, uvz);
+    }
+};
