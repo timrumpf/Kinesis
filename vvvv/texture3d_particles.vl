@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="N4Y4x5dkzXaNiot0dWz8JK" LanguageVersion="2021.4.2.693" Version="0.128">
-  <NugetDependency Id="MhTDBBdSh9aMGc1k8obNC1" Location="VL.CoreLib" Version="2021.4.2-0693-gbe704c7480" />
+<Document xmlns:p="property" Id="N4Y4x5dkzXaNiot0dWz8JK" LanguageVersion="2021.4.4.736" Version="0.128">
+  <NugetDependency Id="MhTDBBdSh9aMGc1k8obNC1" Location="VL.CoreLib" Version="2021.4.4-0736-g7e296efb9e" />
   <Patch Id="ElWr4kK7q5LL4GmK8uYlXy">
     <Canvas Id="HUxkKgWZxitN4lVx8csWSz" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -291,7 +291,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="LkzOrTpVdfHLWymCDuiYRa" Name="Bounds" Kind="InputPin" DefaultValue="0, 0, 1936, 1119" />
+            <Pin Id="LkzOrTpVdfHLWymCDuiYRa" Name="Bounds" Kind="InputPin" DefaultValue="17, 31, 768, 432" />
             <Pin Id="MaN51QkyXrTPgMtGJHaA0N" Name="Input" Kind="InputPin" />
             <Pin Id="Cnh5YbH1XpaO9xKZOBCPGi" Name="Camera" Kind="InputPin" />
             <Pin Id="J8rVzZD761QODou2LfJjFt" Name="Enable Default Camera" Kind="InputPin" />
@@ -758,6 +758,45 @@
               <Choice Kind="TypeFlag" Name="NoiseType" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="624,1354,205,19" Id="FWbKy0wXyqTMEh0mZo7SrM">
+            <p:NodeReference LastCategoryFullName="Stride.Windowing" LastSymbolSource="VL.Stride.Engine.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Stride" />
+              <CategoryReference Kind="Category" Name="Windowing" />
+              <Choice Kind="ProcessAppFlag" Name="SetWindowState" />
+            </p:NodeReference>
+            <Pin Id="K53OQ64K93NOdZ1pnXWhjx" Name="Input" Kind="InputPin" />
+            <Pin Id="UpIaDbUf7sRLu3KjeO5KAn" Name="Resizeable" Kind="InputPin" />
+            <Pin Id="MvGZqBn28bsOy1JAvtM9Q1" Name="Mouse Visible" Kind="InputPin" />
+            <Pin Id="LdMZBv8CpEVLtdf1sQb93I" Name="Title" Kind="InputPin" />
+            <Pin Id="PxrQ8pQl6K9PHZGmAH4wwQ" Name="Border Less" Kind="InputPin" />
+            <Pin Id="QC0cc7t4KSWNmBg2C2ggjJ" Name="Position" Kind="InputPin" />
+            <Pin Id="AClgMuemgYFM2OSnwNHgTz" Name="Set Position" Kind="InputPin" />
+            <Pin Id="EqOHGJgBb93LK9AuYU7Rcf" Name="Size" Kind="InputPin" />
+            <Pin Id="HQQH27V8R9yMqTOhSmhAmU" Name="Set Size" Kind="InputPin" />
+            <Pin Id="VvH80q4yeyFNyOYfM4ppRp" Name="Show" Kind="InputPin" />
+            <Pin Id="AiFLsALOctwM66jrB3qFjp" Name="Hide" Kind="InputPin" />
+            <Pin Id="AaCgkNMuAryOEyVM1FZ8Hd" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="QvlGXHiVlBWL45IEr1c514" Comment="Size" Bounds="766,1308,41,28" ShowValueBox="true" isIOBox="true" Value="768, 432">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IgcvUE7VaYJOqyLel1X1D3" Comment="Set Size" Bounds="793,1256,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OGbTj5kH9p3M45EZY3Rfvn" Comment="Position" Bounds="722,1295,35,28" ShowValueBox="true" isIOBox="true" Value="15, 30">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <ProcessDefinition Id="GKiuRL7gqESPKD21aHRNqX">
           <Fragment Id="B6Y2DbdcCtDPyZKjQgaYhg" Patch="PZJgy7Iu9VUODHwhu2VYNE" Enabled="true" />
@@ -862,11 +901,16 @@
         <Link Id="QzlQjW08I4wOh5C8U4nt9J" Ids="FaZciSMcW9QQE5Q1iKezRZ,UL9YV7JBPflNTvrswPFP0t" />
         <Link Id="OuN9wxyKwaTNTUeJD1d1iF" Ids="K1ofBuX49K7MrpR8oJ8OOu,KxDQKorIqHBMaVEZRGSNgo" />
         <Link Id="U4Im7WJZTZrNB1pM7u08tK" Ids="Fiu7Su1TVELPixgS2LDKa5,RHIBIPwkXSMQVSNbaDT4Cp" />
+        <Link Id="VkdZtUufrGELezsmSDej2F" Ids="UW5UZPVb2jiPvtqohk8JHL,K53OQ64K93NOdZ1pnXWhjx" />
+        <Link Id="OtJSTcd8WTiOdIYajvm0bD" Ids="QvlGXHiVlBWL45IEr1c514,EqOHGJgBb93LK9AuYU7Rcf" />
+        <Link Id="LrDcTCX6dfxNse78AWJCOv" Ids="IgcvUE7VaYJOqyLel1X1D3,HQQH27V8R9yMqTOhSmhAmU" />
+        <Link Id="ND1ZAuc4rs5OmrpjuXgkQo" Ids="OGbTj5kH9p3M45EZY3Rfvn,QC0cc7t4KSWNmBg2C2ggjJ" />
+        <Link Id="ICAc9zpaRvJNwzCL18VO3L" Ids="IgcvUE7VaYJOqyLel1X1D3,AClgMuemgYFM2OSnwNHgTz" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VKlxvs5p7NvOAVnMYghbaA" Location="VL.CoreLib" Version="2021.4.2-0693-gbe704c7480" />
-  <NugetDependency Id="KTqDgZBagM6Nse4B692lLw" Location="VL.Stride" Version="2021.4.2-0693-gbe704c7480" />
+  <NugetDependency Id="VKlxvs5p7NvOAVnMYghbaA" Location="VL.CoreLib" Version="2021.4.4-0736-g7e296efb9e" />
+  <NugetDependency Id="KTqDgZBagM6Nse4B692lLw" Location="VL.Stride" Version="2021.4.4-0736-g7e296efb9e" />
   <NugetDependency Id="SjZQ8xpGWjuMS14tVIVzuw" Location="VL.Fuse" Version="0.1.5" />
   <NugetDependency Id="B3D8j5ev9aDM6daiKX0WOB" Location="VL.MediaFoundation" Version="0.2.0-stride" />
   <NugetDependency Id="KdvAWdiGRh6NdrEJ8yn4WD" Location="VL.Video.MediaFoundation" Version="1.0.9" />
