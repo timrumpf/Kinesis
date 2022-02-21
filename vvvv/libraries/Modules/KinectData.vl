@@ -79,6 +79,16 @@
             </Node>
             <Pad Id="KwKpHRTj5AwO6twAJOnrfF" SlotId="MG5cbVbnihnQLbQZhwU15k" Bounds="761,452" />
             <ControlPoint Id="SrwiDE9GqPYQKYJyDLVlvR" Bounds="763,507" />
+            <Node Bounds="901,392,70,19" Id="VWwPmFbs7wQMsGD45bFHFJ">
+              <p:NodeReference LastCategoryFullName="Devices.Kinect2" LastSymbolSource="VL.Devices.Kinect2.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="WorldImage" />
+              </p:NodeReference>
+              <Pin Id="AvbZIbWkHPtMnfOcCd6USV" Name="Device" Kind="InputPin" />
+              <Pin Id="IyOLGzTROskNH8lLJ754Rj" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Pad Id="PI1No0hEOyALYXmLmzkTv8" SlotId="O7VOqRZZ7l8NkRWOWU5nWv" Bounds="901,449" />
+            <ControlPoint Id="P0iTx5LlLpEM9eXLuCU3FY" Bounds="908,512" />
           </Canvas>
           <Patch Id="P4QZmSfqlBUPkThYH5X7Sm" Name="Create" />
           <ProcessDefinition Id="ESH5ATU5jltLXBxbMRPjAx" HasStateOut="true">
@@ -90,6 +100,7 @@
             <Fragment Id="Roe6YTS5JVSOv1jA50n96g" Patch="IMTWp5fhi8qM1zmp5RcEbe" />
             <Fragment Id="CLaRpPa1pPvMrtlXUx34dG" Patch="QNMoyU3gouWNJEtk55TOuB" />
             <Fragment Id="BhPJynFInKRLvebRjw2zg5" Patch="UXyWz1wBhfvLPOq5poKlku" />
+            <Fragment Id="NY5BEOymWmTMszEByHPpkb" Patch="Cg4u1nRGLw4QWreVZkk7Pl" />
           </ProcessDefinition>
           <Link Id="BN9fbULIyeOOJzSOyWuvO8" Ids="MIviSpBn66cONQaOCvPuCI,JZQKoTjc9BjLCHe6AjlBIm" />
           <Link Id="KFpqkvllq7QNTflsFMIAN1" Ids="CFtbbtTRpq3MFodOwMNtSI,MIviSpBn66cONQaOCvPuCI" IsHidden="true" />
@@ -143,6 +154,14 @@
           <Patch Id="UXyWz1wBhfvLPOq5poKlku" Name="GetInfraredImage">
             <Pin Id="OasHctAWqrAM0XuZb3Hvyo" Name="Infrared Image" Kind="OutputPin" />
           </Patch>
+          <Link Id="IzsSESHMnxAL5sS8bhBE9w" Ids="EkLKDjXeTErNwCcHkCyBn9,AvbZIbWkHPtMnfOcCd6USV" />
+          <Slot Id="O7VOqRZZ7l8NkRWOWU5nWv" Name="WorldImage" />
+          <Link Id="OeGLwmpa7P1Oln3CQe2S3n" Ids="IyOLGzTROskNH8lLJ754Rj,PI1No0hEOyALYXmLmzkTv8" />
+          <Link Id="CeN2UX0q6mhN6AcTnFYP5I" Ids="PI1No0hEOyALYXmLmzkTv8,P0iTx5LlLpEM9eXLuCU3FY" />
+          <Link Id="AJ9RTVFYbwHLfpspAAe6pt" Ids="P0iTx5LlLpEM9eXLuCU3FY,MLuO2EXKyaNNQBzlNjzBTO" IsHidden="true" />
+          <Patch Id="Cg4u1nRGLw4QWreVZkk7Pl" Name="GetWorldImage">
+            <Pin Id="MLuO2EXKyaNNQBzlNjzBTO" Name="WorldImage" Kind="OutputPin" />
+          </Patch>
         </Patch>
       </Node>
     </Canvas>
@@ -168,5 +187,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="OCmRepCilXvLEjH3ZSnKpC" Location="VL.Stride" Version="2021.4.6" />
-  <NugetDependency Id="QcYj5kPk9eEQCSkWTWeYSM" Location="VL.Devices.Kinect2" Version="1.2.0" />
+  <NugetDependency Id="EFKJBzmFqUpLWvbWxtCNXC" Location="VL.Devices.Kinect2" Version="1.2.1" />
 </Document>
