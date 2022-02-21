@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="V0L2TuWvlcHQM8eke8eBPs" LanguageVersion="2021.4.6.835" Version="0.128">
-  <NugetDependency Id="O5KAxUOIbWkP5UNb43YAGK" Location="VL.CoreLib" Version="2021.4.6" />
+<Document xmlns:p="property" Id="V0L2TuWvlcHQM8eke8eBPs" LanguageVersion="2021.4.7.870" Version="0.128">
+  <NugetDependency Id="O5KAxUOIbWkP5UNb43YAGK" Location="VL.CoreLib" Version="2021.4.7-0870-g5fce380896" />
   <Patch Id="OQBgbjYUMkZMnmIIeXB1ad">
     <Canvas Id="Iam26cVWeZeNJDQEZ3tjDc" DefaultCategory="AudioAnalysis" CanvasType="FullCategory">
       <!--
@@ -33,9 +33,9 @@
                 <Choice Kind="ProcessAppFlag" Name="FFT" />
               </p:NodeReference>
               <Pin Id="N71MkrinXiuNa9kmuMFkYM" Name="Input" Kind="InputPin" />
-              <Pin Id="MgsxOBxS02IPMjkQMOpc4e" Name="Smoothing" Kind="InputPin" />
-              <Pin Id="Txp45CAkNhvNEvs7roUNKH" Name="Window Function" Kind="InputPin" />
               <Pin Id="SVDxqOz05vxMrcExdQsvOl" Name="Buffer Size" Kind="InputPin" />
+              <Pin Id="Txp45CAkNhvNEvs7roUNKH" Name="Window Function" Kind="InputPin" />
+              <Pin Id="MgsxOBxS02IPMjkQMOpc4e" Name="Smoothing" Kind="InputPin" />
               <Pin Id="NDIp8y62Ub5PwG8CjyAhuO" Name="db Range" Kind="InputPin" />
               <Pin Id="GWbFUhnbI6mOfnvVM5AkSy" Name="Output" Kind="OutputPin" />
             </Node>
@@ -316,6 +316,15 @@
               <Pin Id="PwnbmhcOHlGQF9Cn9TRtIB" Name="Output" Kind="OutputPin" />
               <Pin Id="L1sVo9XyUNSLkMJ34zAOf0" Name="Indices" Kind="OutputPin" />
             </Node>
+            <Node Bounds="1163,435,83,26" Id="FV8YubWDyEaL5wHRHEyXM0">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="DXWk5fObwhbL8WQUDmUCtn" Name="Input" Kind="StateInputPin" />
+              <Pin Id="TSNBlZo8jvYNlQZlmeyMfo" Name="Result" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="JTt94fInUlYMPOeVEeww3w" Name="Create" />
           <ProcessDefinition Id="CkiAXvfXzqxLeh0veJUk0z" HasStateOut="true">
@@ -356,7 +365,6 @@
           <Patch Id="SO1hkNZU00KPxz9kdJ1VdX" Name="GetFFT">
             <Pin Id="UsfxuyAryVJMchavObGfzx" Name="FFT" Kind="OutputPin" />
           </Patch>
-          <Link Id="PgBmh9FFWl0PGq5I3LppYJ" Ids="GWbFUhnbI6mOfnvVM5AkSy,PZcuTs6tWGKQXwiZ86133S" />
           <Link Id="QW6KIG6oATQMWrv7GqLdg0" Ids="F0tlrTUzrhRQYCpcDsBUs9,HvUCHKi8ONxLZVmHbxo1TU" />
           <Link Id="MLApHadp7wtQNy4RvTfJ3M" Ids="LkruzTDS6WML41Y6oKHGtj,I5r54JDtY0hLNm8MtV39fp" />
           <Link Id="AIZmkYaV0ziNm0HHtWr2j1" Ids="MQru1aI600tNXIfTDwOVwn,EN7C4FxiD1BNBpOAUV1TLd" />
@@ -372,8 +380,6 @@
           <Link Id="KgmEsHdCh1UOlai7m2j3Jv" Ids="RFptUyrwf7TMjUaG3wOmy1,RgvR4S0rqKHP2sSKwdcUuj" />
           <Link Id="OndysUgJK1UQKkfBoFPxa6" Ids="CToKOvqrT6PLR8HqzZqcbW,L1EVL7zYAEDMKAlwbhyp2P" />
           <Link Id="H8O0mrDgieuLGzOtC3Naba" Ids="J9yoCmZrmf9PeRs7tPVj4V,E0IfelNvGvSNVUrcIpKIeU" />
-          <Link Id="C2j6CqU6iQ3PROiA3JWskt" Ids="GWbFUhnbI6mOfnvVM5AkSy,Cw2NTpbzwy2MO8sdFZ9qCc" />
-          <Link Id="HsliDKK1pyKOkaS3Twjnv8" Ids="GWbFUhnbI6mOfnvVM5AkSy,NkLRRbaYl3kOPldlrlUPsf" />
           <Slot Id="AIVFvMc2aIcQAoJ8Cr55XF" Name="LinearFFT" />
           <Link Id="MsVTsZORUVoMh1EV6Amh0g" Ids="VMeRmvwBlK2PFtWnYSChcd,Gii1mE383BZN7ncPU9BWE3" />
           <Link Id="P6kE66MajKfL6B5cCqpOao" Ids="Gii1mE383BZN7ncPU9BWE3,RcLOgRjHbtcLq0MoxESaqq" />
@@ -436,12 +442,16 @@
           <Link Id="V1FEI0IyiNkOocNTFQU2qW" Ids="QAZdsaxhCpIOlQWu5KOm77,Q8thdpyQ8EjLEadQndILXQ" />
           <Link Id="BDBBuuqvD1CQJUIBRISIv9" Ids="TrnlDTvcUtdL8ZpdFiiXi2,JErXmBvZ0rLPCkoWjeuWYO" />
           <Link Id="O69TatapNR9LygAfZQepsU" Ids="SDioZhJCotnQFb5Ki0rQEN,Ju6xFVUcEHHML4jx4hiYKQ" />
-          <Link Id="GLiTpYV3pugNYbDG4VFQIA" Ids="GWbFUhnbI6mOfnvVM5AkSy,RRiunUaLrIqPS5F65VWQWt" />
           <Link Id="SCMQa6vKwO9MSyiRSba8EB" Ids="EviimE8q01uPwzgVIWMRFt,ABE9j5GeJbPPg0BU3ED80k" />
           <Link Id="MfsMfUZiSZ3N5E1SY0UDD5" Ids="NIX7cUb49mxMkCCXbdSiuc,ECsGLL5gH6zOqaiPVavz1Q" />
           <Link Id="NBrPb7F0zo3PnFztIliO2y" Ids="MWTabU3ylO0PNuz0C4eQ35,KLR18FsyiPLQKRmaGkyVvo" />
           <Link Id="CrOlmBz92Z8PmnfxlAG225" Ids="L1sVo9XyUNSLkMJ34zAOf0,AsNSGJVicyZMAHpqshsreF" />
           <Link Id="SxeQxQNTYWZM9zGxuEnjRg" Ids="GWbFUhnbI6mOfnvVM5AkSy,TlHv0Nus7lNPlK3muGgoj4" />
+          <Link Id="MqbCGtDfbwiL04ObbqM13W" Ids="GWbFUhnbI6mOfnvVM5AkSy,DXWk5fObwhbL8WQUDmUCtn" />
+          <Link Id="UWipZLjuZPgNDeqaobmTPy" Ids="TSNBlZo8jvYNlQZlmeyMfo,RRiunUaLrIqPS5F65VWQWt" />
+          <Link Id="IalnqfQTHbbPSEmMnhO335" Ids="TSNBlZo8jvYNlQZlmeyMfo,Cw2NTpbzwy2MO8sdFZ9qCc" />
+          <Link Id="QnVtN34PkPqObMqtNhuBv8" Ids="TSNBlZo8jvYNlQZlmeyMfo,NkLRRbaYl3kOPldlrlUPsf" />
+          <Link Id="EUI1Dw6k2POQVPZvTHQC8I" Ids="TSNBlZo8jvYNlQZlmeyMfo,PZcuTs6tWGKQXwiZ86133S" />
         </Patch>
       </Node>
     </Canvas>
@@ -466,6 +476,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O3GKSo8uTp4Nh1Df7gDMOZ" Location="VL.Stride" Version="2021.4.6" />
-  <NugetDependency Id="HztjZApOnseMT8zUzZNga6" Location="VL.Audio" Version="0.4.8-alpha" />
+  <NugetDependency Id="O3GKSo8uTp4Nh1Df7gDMOZ" Location="VL.Stride" Version="2021.4.7-0870-g5fce380896" />
+  <NugetDependency Id="HztjZApOnseMT8zUzZNga6" Location="VL.Audio" Version="0.6.1-alpha" />
 </Document>
