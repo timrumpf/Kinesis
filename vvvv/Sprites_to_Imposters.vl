@@ -1435,7 +1435,7 @@
             <Pin Id="HEOR4Y7QAO0MpK9111aF0E" Name="In True" Kind="InputPin" />
             <Pin Id="Gk2LDHrXN4kMMsRrSi8tIE" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="NSqsSJq5MP6MnW3C0FUmq7" Comment="Lifetime" Bounds="189,1488,37,15" ShowValueBox="true" isIOBox="true" Value="0.6">
+          <Pad Id="NSqsSJq5MP6MnW3C0FUmq7" Comment="Lifetime" Bounds="189,1488,37,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -2370,11 +2370,6 @@
             <Pin Id="LyaSfCE1aoVN6KGp7hYUAK" Name="Value" Kind="OutputPin" />
             <Pin Id="UzVpsaZ8qjwLpFeq5ZxlWi" Name="Void" Kind="OutputPin" />
           </Node>
-          <Pad Id="FEI05s7Ir3XPSZQLHYTNuI" Comment="The Source" Bounds="409,1712,35,43" ShowValueBox="true" isIOBox="true" Value="0.01, 0.05, 0.01">
-            <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Vector3" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="591,1880,107,19" Id="FVINJrHS02jPicjjI1ruMy">
             <p:NodeReference LastCategoryFullName="Fuse.Particles.Orientation" LastSymbolSource="Fuse.Particles.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2459,7 +2454,7 @@
             <Pin Id="JijMFcyqAPWNuhN44KQ1HV" Name="z" Kind="InputPin" />
             <Pin Id="N6VLKMmQ5QrMbRQv1ate2c" Name="Output" Kind="OutputPin" />
           </Node>
-          <Overlay Id="LlTe0EAabuPPjaoe4ZNm1Z" Name="basically workarround do draw" Bounds="2806,752,294,224" />
+          <Overlay Id="LlTe0EAabuPPjaoe4ZNm1Z" Name="basically workarround DoDraw" Bounds="2806,752,294,224" />
           <Node Bounds="2827,903,29,19" Id="NawCnpvWD7LMBB7VzlNbwY">
             <p:NodeReference LastCategoryFullName="Fuse.Core.Swizzle" LastSymbolSource="Fuse.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2470,6 +2465,92 @@
             <Pin Id="McCFkpZXtSEPa4BKoz6af8" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="ENPVDBqsmRuM8WVTr5mzHE" SlotId="UaLZx5zDyDJQD1r5W2Asub" Bounds="2888,841" />
+          <Node Bounds="2344,923,125,19" Id="TnWroa1cdIxLLDrI1uvIQA">
+            <p:NodeReference LastCategoryFullName="Stride.Models.Meshes" LastSymbolSource="VL.Stride.Rendering.Nodes">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Meshes" />
+              <Choice Kind="ProcessNode" Name="ConeMesh" />
+            </p:NodeReference>
+            <Pin Id="PKMeMocD6j9OAvOvkbKqVs" Name="Height" Kind="InputPin" />
+            <Pin Id="Tq9qwzhpw6WPr6m4SAHzwK" Name="Radius" Kind="InputPin" DefaultValue="1" />
+            <Pin Id="M5BYovdfUMSONOHubOhecC" Name="Tessellation" Kind="InputPin" DefaultValue="4" />
+            <Pin Id="CRF9mu2i11JMuR1YxU0JZ5" Name="Scale" Kind="InputPin" />
+            <Pin Id="P7sP8ucA5cYP1v24vHyg4U" Name="Uv Scale" Kind="InputPin" />
+            <Pin Id="FlQtidSJ2RWLmIv10Utoa3" Name="Local Offset" Kind="InputPin" />
+            <Pin Id="BzvbYpCgm6fOz85IE39An4" Name="Number Of Texture Coordinates" Kind="InputPin" />
+            <Pin Id="Jx70HDqgZ1TObzu435IQnl" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="2616,922,125,19" Id="GiIapYNkRdNQWORnGVRLWF">
+            <p:NodeReference LastCategoryFullName="Stride.Models.Meshes" LastSymbolSource="VL.Stride.Rendering.Nodes">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Meshes" />
+              <Choice Kind="ProcessNode" Name="CylinderMesh" />
+            </p:NodeReference>
+            <Pin Id="HNZ9hcUkDHoNZLlMLKNstE" Name="Height" Kind="InputPin" />
+            <Pin Id="PfDxeAY0ftLNLXnuL0XPLg" Name="Radius" Kind="InputPin" />
+            <Pin Id="MbEwFv5UqmiMqWJoY5wt8G" Name="Tessellation" Kind="InputPin" DefaultValue="6" />
+            <Pin Id="PS9STMFQujFQcSfvIUG4FD" Name="Scale" Kind="InputPin" />
+            <Pin Id="CTsFjlgommUO0B8hfDEy3D" Name="Uv Scale" Kind="InputPin" />
+            <Pin Id="R2NI3OsehQSNY048zPIZXh" Name="Local Offset" Kind="InputPin" />
+            <Pin Id="HbljfL2k6uUQU33PHkIFvJ" Name="Number Of Texture Coordinates" Kind="InputPin" />
+            <Pin Id="FEjRDyT1h2pMOIjnLPJ9O1" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="2488,920,125,19" Id="AnlfOnUOQ2DQbGY7pAIWJZ">
+            <p:NodeReference LastCategoryFullName="Stride.Models.Meshes" LastSymbolSource="VL.Stride.Rendering.Nodes">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Meshes" />
+              <Choice Kind="ProcessNode" Name="TorusMesh" />
+            </p:NodeReference>
+            <Pin Id="AUppDMSlW2jPVL4mfrT9BM" Name="Radius" Kind="InputPin" />
+            <Pin Id="Nif24eR3s1wPUOrYU9C4WD" Name="Thickness" Kind="InputPin" />
+            <Pin Id="FWMZjWMYaN6QJOUCaSa0a0" Name="Tessellation" Kind="InputPin" DefaultValue="4" />
+            <Pin Id="FChldV49ZAuNANbZwFKZF7" Name="Scale" Kind="InputPin" />
+            <Pin Id="DShYj4PhDGcQMS9gNCvl1C" Name="Uv Scale" Kind="InputPin" />
+            <Pin Id="MrpoSEB9prZL5JrWhw84u5" Name="Local Offset" Kind="InputPin" />
+            <Pin Id="Ff1QwEiRrOcO6vJjP0rngU" Name="Number Of Texture Coordinates" Kind="InputPin" />
+            <Pin Id="FJT9z4IRziML0fyQzeehWl" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="2306,1000" Id="QqxGBcB6PU1PqRo7sxGl2x">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Switch" />
+              <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+            </p:NodeReference>
+            <Pin Id="NeQhXwujm0UM44UNmBCCuw" Name="Index" Kind="InputPin" />
+            <Pin Id="LPAEI4YJ2hzNIJ2MqEdfeQ" Name="Input" Kind="InputPin" />
+            <Pin Id="K17oHn3LOxyNQmClzyXjrT" Name="Input 2" Kind="InputPin" />
+            <Pin Id="PGnZBADo1LaMM4T9w7jFZ3" Name="Output" Kind="OutputPin" />
+            <Pin Id="PyzdZT4tHHHOU101WebtfY" Name="Input 3" Kind="InputPin" />
+            <Pin Id="J62hmEKBiCuN8Atdfh2vNh" Name="Input 4" Kind="InputPin" />
+          </Node>
+          <Node Bounds="2247,922,85,19" Id="NMugoeAZVi9Pht0Lo0VMWs">
+            <p:NodeReference LastCategoryFullName="Stride.Models.Meshes" LastSymbolSource="VL.Stride.Rendering.Nodes">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Meshes" />
+              <Choice Kind="ProcessNode" Name="BoxMesh" />
+            </p:NodeReference>
+            <Pin Id="BNCsflSFoW1QGfpSB8TPJJ" Name="Size" Kind="InputPin" />
+            <Pin Id="LShNVRdQBy5LxwFfKCjlTQ" Name="Scale" Kind="InputPin" />
+            <Pin Id="JphmVxGSGBFQFrYsrgVxXR" Name="Uv Scale" Kind="InputPin" />
+            <Pin Id="Gr3P2fNxjJrP3brGRVMSFz" Name="Local Offset" Kind="InputPin" />
+            <Pin Id="Iaf70L6UkfZQHjmMjBAtjx" Name="Number Of Texture Coordinates" Kind="InputPin" />
+            <Pin Id="AgXePYdvJ6HLeAnBTFLKCM" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="C2wUvFiJPxyPX9fVDfHwDc" Comment="Index" Bounds="2302,885,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="FvcEMOXRwmrNUTVhffB91F" SlotId="Gd5AwlOqdYNMweQoXNVk9B" Bounds="582,1632" Value="0.01, 0.05, 0.01" />
+          <Pad Id="KMzjBf0hKc6OJ7xY22hGgh" Comment="The Source" Bounds="2447,809,35,43" ShowValueBox="true" isIOBox="true" Value="0.01, 0.05, 0.01">
+            <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Vector3" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="NjNtX3EgAbkOHk7VVNnsGa" SlotId="Gd5AwlOqdYNMweQoXNVk9B" Bounds="2450,876" Value="0.01, 0.05, 0.01" />
+          <Overlay Id="Q1BIhaiOy1ALyjnAcifqoN" Name="set size" Bounds="2408,774,168,124" />
         </Canvas>
         <ProcessDefinition Id="P6JNIorXGC0OzE1HRJfXEx">
           <Fragment Id="R619dHYrUlAL7lYc09qSBc" Patch="PsECfHNmPW5NLQ3WaW8e5E" Enabled="true" />
@@ -2699,7 +2780,6 @@
         <Link Id="PUZV9EPRr91QIXB7OGDQXN" Ids="LYn7KgijMphO403rW8Idey,NPl9E2cg5tFNBQMao7SucA" />
         <Link Id="KgRAmycVaz1PdnrZWwrQRH" Ids="IHJrOgzYRvtPxF2g1y6kKd,H68yDg9FR4ILmygAt9Our8" />
         <Link Id="OFLSLbLxz5iOcpntxeTQcp" Ids="UzVpsaZ8qjwLpFeq5ZxlWi,IQAdg4PlwiGLSSJYjbEjfL" />
-        <Link Id="OYy0qUxpglRNVuCQdqlLRz" Ids="FEI05s7Ir3XPSZQLHYTNuI,HcRtPXKlu82OBVRAUEawnE" />
         <Link Id="GDC3KbJ2iA5PdLiRG1exgl" Ids="VXSgsu3PvBcM51xBOIG9BA,SN2A8z1qDjoQU4lyggbmLw" />
         <Link Id="GQlgjjBMgPQLwjC8FsvoDV" Ids="KHRi1DckuQqNvMBtFrlS2B,Ds3542Jq13aPBMnDpaRmkF" />
         <Link Id="QZ1IBI6KYaKO4Ynzwar9dq" Ids="P1GCs9RiLLUPLAHE1gDojP,Ic0XJPAJMOcNMpzVZ0CpvX" />
@@ -2718,6 +2798,15 @@
         <Link Id="MYLRPDWtGJjOjE64yDUtzb" Ids="McCFkpZXtSEPa4BKoz6af8,S2BKjSW1AldOnRH4Wa3mjc" />
         <Link Id="IRLaROm87mtNXe6hVjDBmo" Ids="McCFkpZXtSEPa4BKoz6af8,FAhYTfMf60fOdpqVAksHHq" />
         <Link Id="QR5A1OuttTCLJWFbN7AZC7" Ids="McCFkpZXtSEPa4BKoz6af8,JijMFcyqAPWNuhN44KQ1HV" />
+        <Link Id="Ds6PNKq2WfALfrNuJbufUM" Ids="FEjRDyT1h2pMOIjnLPJ9O1,J62hmEKBiCuN8Atdfh2vNh" />
+        <Link Id="AnhSuYxplF9LsU6X5P2xL9" Ids="AgXePYdvJ6HLeAnBTFLKCM,LPAEI4YJ2hzNIJ2MqEdfeQ" />
+        <Link Id="O4fRj3OGBuSN9oNayjgU6T" Ids="PGnZBADo1LaMM4T9w7jFZ3,NgDT18fqTAWMECgW3Ny0wA" />
+        <Link Id="OnpKMBeeoYFPyN26ABMFlZ" Ids="C2wUvFiJPxyPX9fVDfHwDc,NeQhXwujm0UM44UNmBCCuw" />
+        <Slot Id="Gd5AwlOqdYNMweQoXNVk9B" Name="size3" />
+        <Link Id="PofQIS6pre6PLF1RdJaTdU" Ids="FvcEMOXRwmrNUTVhffB91F,HcRtPXKlu82OBVRAUEawnE" />
+        <Link Id="BRy8VWLcy6fO6RESTkGQAh" Ids="KMzjBf0hKc6OJ7xY22hGgh,NjNtX3EgAbkOHk7VVNnsGa" />
+        <Link Id="MLUHdqzz43DNbFMsLLSzOu" Ids="Jx70HDqgZ1TObzu435IQnl,K17oHn3LOxyNQmClzyXjrT" />
+        <Link Id="DlnboZix9aMM0zUmNirwZq" Ids="FJT9z4IRziML0fyQzeehWl,PyzdZT4tHHHOU101WebtfY" />
       </Patch>
     </Node>
   </Patch>
