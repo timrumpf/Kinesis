@@ -147,7 +147,7 @@
                 <Choice Kind="ProcessAppFlag" Name="FileModel" />
               </p:NodeReference>
               <Pin Id="Ngzwlj2nS9rLPGelBL0rHv" Name="Path" Kind="InputPin" />
-              <Pin Id="QaWqLUjGRgILFw5XHMjurx" Name="Import Scale" Kind="InputPin" />
+              <Pin Id="QaWqLUjGRgILFw5XHMjurx" Name="Import Scale" Kind="InputPin" DefaultValue="1" />
               <Pin Id="VlwRhdh8pJiOpZJxfstj1S" Name="Pivot Position" Kind="InputPin" />
               <Pin Id="NvQ4EU3aBdlPxwBrtJA17N" Name="Reload" Kind="InputPin" />
               <Pin Id="P8fy74aeuEgPKWo68XGcP8" Name="Model" Kind="OutputPin" />
@@ -218,7 +218,7 @@
                   <Pin Id="Pqg4ufCkBK9ON81AwvEieA" Name="Input" Kind="StateInputPin" />
                   <Pin Id="UIX5TIxMBy3ONEwPrT4xdX" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Node Bounds="509,494,74,19" Id="D93ZrAhuS2JLVUKQ0srw7v">
+                <Node Bounds="509,512,74,19" Id="D93ZrAhuS2JLVUKQ0srw7v">
                   <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Kinect2_PointCloud - Copy.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="BufferToGPU" />
@@ -254,6 +254,7 @@
                 </Node>
               </Patch>
               <ControlPoint Id="VoI1cMlYoM2QQS2hQlDBkl" Bounds="585,570" Alignment="Bottom" />
+              <ControlPoint Id="BysHJKRgsAFMaOKNjWYdfS" Bounds="485,570" Alignment="Bottom" />
             </Node>
             <Node Bounds="495,278,56,19" Id="B9cWWpmypnBO6zZwP757yz">
               <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
@@ -277,6 +278,7 @@
               <Pin Id="O4p4piMaekvLzn8GB4s4ho" Name="xyz" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="FWSYpEbILYhPiEeAxeMyD4" Bounds="774,251" />
+            <ControlPoint Id="OnsZw8ySbuqL5S9ApBskRl" Bounds="399,721" />
           </Canvas>
           <ProcessDefinition Id="ObFEWHIEW5jNSPveSsH5GC">
             <Fragment Id="LkCUSoTxlCMMPCmFQG0XCU" Patch="B8hjxSNyRRpOe61kGdRGGf" Enabled="true" />
@@ -298,15 +300,6 @@
           <Link Id="RiBQzNDmeC1PxTb6ewAAFc" Ids="KRNhznZ46RMPgbmMn6GxKY,VIf12e1oxuXOsEz9fXTVjl" />
           <Link Id="UD5nbZ1QforQHwMnaHsypc" Ids="VIf12e1oxuXOsEz9fXTVjl,Fjc2aANkwWAN2IW6zJfxev" />
           <Link Id="MMv7C2mAVFaPVqHOQVuyc2" Ids="Fjc2aANkwWAN2IW6zJfxev,TVDsIapRTdtOUUeKvodEgv" IsHidden="true" />
-          <Patch Id="B8hjxSNyRRpOe61kGdRGGf" Name="Create" />
-          <Patch Id="CnGjI3VAzzwNwmIeJ1pxUC" Name="Update">
-            <Pin Id="DqPCvOl4ZaPLWuDLlWFYCn" Name="Path" Kind="InputPin" Bounds="467,228" />
-            <Pin Id="Ve6sgkyvAliPz7jdrd0dZ7" Name="Reload" Kind="InputPin" Bounds="553,228" />
-            <Pin Id="TVDsIapRTdtOUUeKvodEgv" Name="Count" Kind="OutputPin" Bounds="421,607" />
-            <Pin Id="OaYWPCMDT9JLfrrWiGr0ef" Name="Output" Kind="OutputPin" Bounds="516,596" />
-            <Pin Id="ChG9kuMZyslNh6xYOvM19K" Name="UV" Kind="OutputPin" Bounds="598,693" />
-            <Pin Id="EQAilrmP1C2NHG1oBDfPDr" Name="Input" Kind="InputPin" Bounds="775,250" />
-          </Patch>
           <Link Id="H9BjLxaWuvWNhq8yaxySkd" Ids="IxX8R9kEdhXMEwZjIepMUj,OgFUYZbQpKiOhT8zm86AA9" />
           <Link Id="NbCvMh5qgVRQIeZcrMAJa9" Ids="QmusWbkntipNQLf5K22Szg,IxX8R9kEdhXMEwZjIepMUj" />
           <Link Id="HRs6eAedluXPNUw7wNJPiZ" Ids="DqZZPVVmxobPS4mrXhGuUn,QItTDVmsFvuLTKiyeABcQS" />
@@ -320,6 +313,19 @@
           <Link Id="OJu5zt9GWbqMcgDxCNNN8U" Ids="FWSYpEbILYhPiEeAxeMyD4,M0zfVN2EHLhNT0sdSEjIAh" />
           <Link Id="SKbucb7XJroQSCt1yxFPMf" Ids="EQAilrmP1C2NHG1oBDfPDr,FWSYpEbILYhPiEeAxeMyD4" IsHidden="true" />
           <Link Id="A6pUoConqv5NHvAAo9zEX0" Ids="OMWicT8cD4xLwWIxK5JiPh,QqslLmmg9B1LwnJn6HExY4" />
+          <Link Id="KpJMfG7kjhoNI2Dh0g0EQF" Ids="M3yJjgWuIpFPk6Q0AzYUNH,BysHJKRgsAFMaOKNjWYdfS" />
+          <Link Id="BJ9BLtg7scLOvz4mP6804C" Ids="BysHJKRgsAFMaOKNjWYdfS,OnsZw8ySbuqL5S9ApBskRl" />
+          <Link Id="SibmgmYwb0APj7vL5xxWrn" Ids="OnsZw8ySbuqL5S9ApBskRl,UxKoRbDvB8kMZretAdYvuB" IsHidden="true" />
+          <Patch Id="B8hjxSNyRRpOe61kGdRGGf" Name="Create" />
+          <Patch Id="CnGjI3VAzzwNwmIeJ1pxUC" Name="Update">
+            <Pin Id="DqPCvOl4ZaPLWuDLlWFYCn" Name="Path" Kind="InputPin" Bounds="467,228" />
+            <Pin Id="Ve6sgkyvAliPz7jdrd0dZ7" Name="Reload" Kind="InputPin" Bounds="553,228" />
+            <Pin Id="EQAilrmP1C2NHG1oBDfPDr" Name="Input" Kind="InputPin" Bounds="775,250" />
+            <Pin Id="UxKoRbDvB8kMZretAdYvuB" Name="Positions" Kind="OutputPin" Bounds="399,721" />
+            <Pin Id="TVDsIapRTdtOUUeKvodEgv" Name="Count" Kind="OutputPin" Bounds="421,607" />
+            <Pin Id="OaYWPCMDT9JLfrrWiGr0ef" Name="Output" Kind="OutputPin" Bounds="516,596" />
+            <Pin Id="ChG9kuMZyslNh6xYOvM19K" Name="UV" Kind="OutputPin" Bounds="598,693" />
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -2771,10 +2777,11 @@
               </p:NodeReference>
               <Pin Id="KCy9eE7lNlZMSCGMUnGsqM" Name="Path" Kind="InputPin" />
               <Pin Id="FFXO1OKaarjMKgK61MM2YD" Name="Reload" Kind="InputPin" DefaultValue="False" />
-              <Pin Id="QbMfJGC1HHJPAvunuI6DWN" Name="Input" Kind="InputPin" />
+              <Pin Id="EtoRBRxii6UO8u55qlG0bl" Name="Positions" Kind="OutputPin" />
               <Pin Id="Mbx1aQkxaRLMpaUHa4YIqL" Name="Count" Kind="OutputPin" />
               <Pin Id="Jpo7ZNWZaAqMeXAML7sIqB" Name="Output" Kind="OutputPin" />
               <Pin Id="UWEE4vELDNVMSX3jIrLEPR" Name="UV" Kind="OutputPin" />
+              <Pin Id="QbMfJGC1HHJPAvunuI6DWN" Name="Input" Kind="InputPin" />
             </Node>
             <Node Bounds="1041,654,147,19" Id="PpLlkzvHUVNPYvhb0QsvGn">
               <p:NodeReference LastCategoryFullName="Fuse.Particles.Force" LastSymbolSource="Fuse.Particles.vl">
