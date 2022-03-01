@@ -19,7 +19,7 @@ shader SlitscanSampling_ShaderFX : ComputeFloat4, ShaderBaseStream, Texturing
         float4 mask = ShaderInput.Compute();
         //use those values (they go from 0 to 1) as y value
         //for the texture lookup of the secound texture
-        float depth = ((mask.r * ArrayTextureSize));
+        float depth = ((mask.r * ArrayTextureSize) % ArrayTextureSize);
         float3 uvz = float3(streams.TexCoord, depth);
         return ArrayTexture.Sample(LinearSampler, uvz);
     }
