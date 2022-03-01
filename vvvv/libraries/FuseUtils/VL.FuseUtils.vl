@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Tn3iBce6kULQTIfoci7Y6h" LanguageVersion="2021.4.7.870" Version="0.128">
-  <NugetDependency Id="EmCJLxeodhXNyNfxl3FZ4t" Location="VL.CoreLib" Version="2021.4.7-0870-g5fce380896" />
+<Document xmlns:p="property" Id="Tn3iBce6kULQTIfoci7Y6h" LanguageVersion="2021.4.7.900" Version="0.128">
+  <NugetDependency Id="EmCJLxeodhXNyNfxl3FZ4t" Location="VL.CoreLib" Version="2021.4.7-0900-gc93ca84fce" />
   <Patch Id="B9p6w1R3jc3M5xhzm9iId9">
     <Canvas Id="CRViavoivGOMux06h4NvWb" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -2100,7 +2100,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="Qx7SZySt4XlNtJGPq6TnG6" Bounds="577,105" />
-            <ControlPoint Id="UlIoN3CuUL4QaPLLKZNN9b" Bounds="545,72" />
+            <ControlPoint Id="UlIoN3CuUL4QaPLLKZNN9b" Bounds="593,52" />
             <ControlPoint Id="HxsZNLMrNunNce2jztu6bj" Bounds="857,72" />
             <ControlPoint Id="Tj33ukcHVgwL2PFutfNWya" Bounds="661,72" />
             <ControlPoint Id="NmHUzV0gITyPvGasCjWVqI" Bounds="324,1012" />
@@ -2130,6 +2130,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="Gf7D0ApxbusL6oVaCWhTpG" Bounds="526,1003" />
+            <ControlPoint Id="CzB6aiocJFPLcHIeK1nW9e" Bounds="634,22" />
           </Canvas>
           <ProcessDefinition Id="MUj35W7ETKHNqx8Z1DDxYN">
             <Fragment Id="R7yAntvF9eqNHXFMkO8OXz" Patch="Eg0bS8q6xA2LLnDLYM82Tz" Enabled="true" />
@@ -2170,14 +2171,18 @@
           <Link Id="AXb3A0EuYptPLggeAgRA9r" Ids="QAuERzrg69MOTYFAdlqaG7,QBUHsdrYTlyMqJ540dKr4b" />
           <Link Id="FXS5HLS2FklONHBkCTc2yv" Ids="VSwsB5nrCMcPgt1L9boH28,Gf7D0ApxbusL6oVaCWhTpG" />
           <Link Id="UGhykz5DqbBPXiZHW8EuD4" Ids="Gf7D0ApxbusL6oVaCWhTpG,UrMpaD8KgC2OUEsJZi1DUa" IsHidden="true" />
+          <Link Id="U96NioknkoBLEOUIui0DaI" Ids="Ik8rpKtoUQCOfY1RLqTprG,TQcE7XmG1FyOLvbfN7Pyqt" />
+          <Link Id="Q4oVCSaVw02PxdzsY0oLp7" Ids="CzB6aiocJFPLcHIeK1nW9e,OIklS6f8MVzLlPfNRwrZeW" />
+          <Link Id="ErrxJhGl24FLbqaLQ0UT0w" Ids="JPQxJghPWW8Po2AYyRN26r,CzB6aiocJFPLcHIeK1nW9e" IsHidden="true" />
           <Patch Id="Eg0bS8q6xA2LLnDLYM82Tz" Name="Create" />
           <Patch Id="OkXyLVPYIknMExcxBye7JM" Name="Update">
             <Pin Id="Nc4zAn6MD7YQJRzBRjUqkH" Name="Transform" Kind="InputPin" Bounds="330,504" />
             <Pin Id="GcI32zgrejQONDYA58gXD3" Name="Fluid TimeStep" Kind="InputPin" Bounds="446,407" DefaultValue="1" />
             <Pin Id="Akpaw9bVjeMQFHsE4TCN49" Name="Velocity Mult" Kind="InputPin" Bounds="487,432" />
             <Pin Id="VYL1bakxflcLbNAyGwpv4E" Name="Vorticity Strength" Kind="InputPin" Bounds="535,450" DefaultValue="0.08" />
-            <Pin Id="Bp0QhsFId5zOWbWAjO1AVa" Name="World Texture" Kind="InputPin" Bounds="591,125" />
             <Pin Id="U5sXz57Y8eIMXrsh85Q3Et" Name="VectorField Texture" Kind="InputPin" Bounds="577,104" />
+            <Pin Id="Bp0QhsFId5zOWbWAjO1AVa" Name="World Texture" Kind="InputPin" Bounds="591,125" />
+            <Pin Id="JPQxJghPWW8Po2AYyRN26r" Name="World Transformation" Kind="InputPin" Bounds="632,7" />
             <Pin Id="Dtp20lnDBrkO1AmlYhOSjn" Name="Strength Texture" Kind="InputPin" Bounds="696,92" />
             <Pin Id="MliaVXLeZoXMuQIelkwYr5" Name="Reset" Kind="InputPin" Bounds="873,320" />
             <Pin Id="N9pLwff2XEZPtVI4fj9gUW" Name="Helper Enabled" Kind="InputPin" Bounds="946,565" />
@@ -2186,7 +2191,6 @@
             <Pin Id="UrMpaD8KgC2OUEsJZi1DUa" Name="Pressure Texture" Kind="OutputPin" Bounds="526,1003" />
             <Pin Id="DbuU1obgyKqP0oxYgX8XPd" Name="Helper Entity" Kind="OutputPin" Bounds="701,855" />
           </Patch>
-          <Link Id="U96NioknkoBLEOUIui0DaI" Ids="Ik8rpKtoUQCOfY1RLqTprG,TQcE7XmG1FyOLvbfN7Pyqt" />
         </Patch>
       </Node>
       <!--
@@ -5112,9 +5116,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Qxl1GJiDvXSMzITzlMGj3T" Location="VL.CoreLib" Version="2021.4.7-0870-g5fce380896" />
+  <NugetDependency Id="Qxl1GJiDvXSMzITzlMGj3T" Location="VL.CoreLib" Version="2021.4.7-0900-gc93ca84fce" />
   <NugetDependency Id="B7Rb5YlnkHmOWgZHJTTHWV" Location="VL.Fuse" Version="0.1.5" />
   <NugetDependency Id="Ld3e36ytEQZOVNgCDWuABZ" Location="VL.IO.PLY" Version="0.0.5-alpha" />
-  <NugetDependency Id="DZrahuffNXEPhZTJ4otA3F" Location="VL.Stride" Version="2021.4.7-0870-g5fce380896" />
+  <NugetDependency Id="DZrahuffNXEPhZTJ4otA3F" Location="VL.Stride" Version="2021.4.7-0900-gc93ca84fce" />
   <NugetDependency Id="Of5EaooCjoaQUOy12tsTn1" Location="VL.Devices.Kinect2" Version="1.2.1" />
 </Document>
