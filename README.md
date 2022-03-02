@@ -1,2 +1,2 @@
-# 1stTermProject
+# Kinesis
 1st term project
