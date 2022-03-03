@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1682.0, 929.0 ],
+		"rect" : [ 34.0, 85.0, 1669.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,213 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-50",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.ADSR.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1381.523941159248352, 528.140371203422546, 234.0, 116.0 ],
+					"varname" : "bp.ADSR[5]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-49",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Oscillator.maxpat",
+					"numinlets" : 6,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 993.523939251899719, 531.148123264312744, 314.0, 116.0 ],
+					"varname" : "bp.Oscillator[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-47",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Gigaverb.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 989.523913741111755, 804.807032465934753, 332.0, 116.0 ],
+					"varname" : "bp.Gigaverb[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-45",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.VCA.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 983.523939251899719, 950.807036876678467, 113.0, 116.0 ],
+					"varname" : "bp.VCA[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-44",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.ADSR.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1381.523941159248352, 361.565457940101624, 234.0, 116.0 ],
+					"varname" : "bp.ADSR[4]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-42",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.LPF.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 992.748745441436768, 664.024093270301819, 304.0, 116.0 ],
+					"varname" : "bp.LPF[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-37",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Quantizer.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 989.523913741111755, 364.807036519050598, 217.0, 116.0 ],
+					"varname" : "bp.Quantizer[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-36",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Sequencer.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 983.140935778617859, 107.424054861068726, 726.0, 232.0 ],
+					"varname" : "bp.Sequencer[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Metonomic Pulse.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 989.523913741111755, -21.52630078792572, 107.0, 116.0 ],
+					"varname" : "bp.Metonomic Pulse[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -5120,10 +5327,10 @@
 										"Dry" : [ 0.433070866141734 ],
 										"Early" : [ 0.244094488188976 ],
 										"Regen" : [ 0.334645669291339 ],
-										"Size" : [ 1.024776607805963 ],
+										"Size" : [ 64.940059638371864 ],
 										"Spread" : [ 59.220472440944839 ],
 										"Tail" : [ 0.557086614173228 ],
-										"Time" : [ 4.712814607239974 ],
+										"Time" : [ 30.330541810007915 ],
 										"bypass" : [ 0.0 ]
 									}
 ,
@@ -10890,7 +11097,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 977.570090770721436, -71.578924775123596, 508.0, 116.0 ],
+					"patching_rect" : [ 2368.046275326994873, 954.611547046372607, 508.0, 116.0 ],
 					"varname" : "bp.Gate Sequencer[1]",
 					"viewvisibility" : 1
 				}
@@ -18141,7 +18348,7 @@
 									}
 ,
 									"text" : "pattrstorage #0_patterns @savemode 0",
-									"varname" : "5273_patterns"
+									"varname" : "1033_patterns"
 								}
 
 							}
@@ -19528,7 +19735,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 973.473675727844238, -217.526305437088013, 107.0, 116.0 ],
+					"patching_rect" : [ 2363.949860284117676, 808.66416638440819, 107.0, 116.0 ],
 					"varname" : "bp.Metonomic Pulse[1]",
 					"viewvisibility" : 1
 				}
@@ -31586,7 +31793,7 @@
 									"patching_rect" : [ 1493.194091796875, 501.376861572265625, 66.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.2396240234375, 51.0, 66.0, 25.0 ],
-									"text" : "1 57",
+									"text" : "6 57",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.490000009536743 ]
 								}
 
@@ -33926,7 +34133,7 @@
 									}
 ,
 									"text" : "pattrstorage #0_patterns @savemode 0",
-									"varname" : "5280_patterns"
+									"varname" : "1040_patterns"
 								}
 
 							}
@@ -34678,7 +34885,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 940.473675727844238, 61.372183561325073, 726.0, 232.0 ],
+					"patching_rect" : [ 2330.949860284117676, 1087.562655382821276, 726.0, 232.0 ],
 					"varname" : "bp.Sequencer[1]",
 					"viewvisibility" : 1
 				}
@@ -35096,7 +35303,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 1389.187963724136353, 466.477448344230652, 90.0, 116.0 ],
+					"patching_rect" : [ 2779.66414828040979, 1492.667920165726855, 90.0, 116.0 ],
 					"varname" : "bp.Sample and Hold",
 					"viewvisibility" : 1
 				}
@@ -36449,7 +36656,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 947.187963724136353, 748.357146620750427, 211.0, 116.0 ],
+					"patching_rect" : [ 2337.66414828040979, 1774.54761844224663, 211.0, 116.0 ],
 					"varname" : "bp.FM",
 					"viewvisibility" : 1
 				}
@@ -40280,7 +40487,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 944.187963724136353, 470.368422031402588, 217.0, 116.0 ],
+					"patching_rect" : [ 2334.66414828040979, 1496.558893852898791, 217.0, 116.0 ],
 					"varname" : "bp.Quantizer[1]",
 					"viewvisibility" : 1
 				}
@@ -40774,7 +40981,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 740.912963999999988, 277.5, 61.0, 22.0 ],
-									"text" : "0.024224"
+									"text" : "0.018658"
 								}
 
 							}
@@ -40844,7 +41051,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 499.912963999999988, 277.5, 61.0, 22.0 ],
-									"text" : "0.000251"
+									"text" : "0.033573"
 								}
 
 							}
@@ -40914,7 +41121,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 275.75, 277.5, 61.0, 22.0 ],
-									"text" : "0.253936"
+									"text" : "0.141126"
 								}
 
 							}
@@ -41324,9 +41531,9 @@
 										"MuteCh1[2]" : [ 0.0 ],
 										"MuteCh2" : [ 0.0 ],
 										"MuteCh4" : [ 0.0 ],
-										"in1" : [ -11.905511811023743 ],
-										"in2" : [ -72.0 ],
-										"in3" : [ -32.314960629921316 ],
+										"in1" : [ -17.007874015748129 ],
+										"in2" : [ -29.480314960629997 ],
+										"in3" : [ -34.582677165354383 ],
 										"in4" : [ -72.0 ]
 									}
 ,
@@ -42022,7 +42229,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 740.904757261276245, 1297.387211799621582, 201.0, 116.0 ],
+					"patching_rect" : [ 741.679951071739197, 1295.836824178695679, 201.0, 116.0 ],
 					"varname" : "bp.Audio Mixer",
 					"viewvisibility" : 1
 				}
@@ -42479,7 +42686,7 @@
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 					}
 ,
-					"patching_rect" : [ 1235.977434635162354, 312.975568354129791, 95.0, 116.0 ],
+					"patching_rect" : [ 2626.453619191435791, 1339.166040175625994, 95.0, 116.0 ],
 					"varname" : "bp.Noise",
 					"viewvisibility" : 1
 				}
@@ -49630,7 +49837,7 @@
 									"patching_rect" : [ 48.0, 155.000244000000009, 59.5, 22.0 ],
 									"restore" : 									{
 										"bypass" : [ 0.0 ],
-										"notes" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
+										"notes" : [ 0, 1, 2, 1, 4, 1, 7, 1, 9, 1 ],
 										"rounding" : [ 1.0 ],
 										"score" : [ 1.0 ]
 									}
@@ -59876,7 +60083,7 @@
 										"CV1" : [ 0.0 ],
 										"CV2" : [ 68.50393700787393 ],
 										"CV3" : [ 49.606299212598373 ],
-										"Freq" : [ 4397.505733741330005 ],
+										"Freq" : [ 1458.783538808324693 ],
 										"FreqMode" : [ 0.0 ],
 										"Offset" : [ 0.0 ],
 										"Res" : [ 0.0 ],
@@ -60741,7 +60948,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 146.0, 255.0, 0.990393995744171 ],
+									"bgcolor" : [ 0.0, 146.0, 255.0, 0.577179312715697 ],
 									"id" : "obj-25",
 									"ignoreclick" : 1,
 									"maxclass" : "textbutton",
@@ -65730,7 +65937,7 @@
 									}
 ,
 									"text" : "pattrstorage #0_patterns @savemode 0",
-									"varname" : "5305_patterns"
+									"varname" : "1065_patterns"
 								}
 
 							}
@@ -68865,8 +69072,8 @@
 										"Linear" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"Offset" : [ 0.0 ],
-										"PW" : [ 50.0 ],
-										"PWM" : [ 61.417322834645603 ],
+										"PW" : [ 49.212598425196852 ],
+										"PWM" : [ 70.07874015748024 ],
 										"Waveform" : [ 0.0 ]
 									}
 ,
@@ -70057,13 +70264,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -70099,8 +70299,112 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"order" : 1,
+					"source" : [ "obj-36", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"order" : 0,
+					"source" : [ "obj-36", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 1 ],
+					"order" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"order" : 1,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 1 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-47", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 2 ],
+					"order" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"order" : 1,
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -70341,6 +70645,26 @@
 			"obj-35::obj-89" : [ "Reset[5]", "Reset", 0 ],
 			"obj-35::obj-95" : [ "Steps[5]", "Steps", 0 ],
 			"obj-35::obj-96" : [ "Pulse[2]", "Pulse", 0 ],
+			"obj-36::obj-120" : [ "Max pulse[5]", "Max pulse", 0 ],
+			"obj-36::obj-125" : [ "NoteGrid[3]", "NoteGrid", 0 ],
+			"obj-36::obj-130" : [ "mute[12]", "mute", 0 ],
+			"obj-36::obj-155" : [ "Swing amount[6]", "Swing amount", 0 ],
+			"obj-36::obj-157" : [ "Swing enable[6]", "Swing enable", 0 ],
+			"obj-36::obj-185" : [ "Sequence[3]", "Sequence", 0 ],
+			"obj-36::obj-2" : [ "trans_trig[3]", "trans_trig", 0 ],
+			"obj-36::obj-22" : [ "Pattern[3]", "Pattern", 0 ],
+			"obj-36::obj-25" : [ "GateTime[7]", "GateTime", 0 ],
+			"obj-36::obj-28" : [ "Sync[6]", "Sync", 0 ],
+			"obj-36::obj-4" : [ "live.text[3]", "live.text", 0 ],
+			"obj-36::obj-89" : [ "Reset[7]", "Reset", 0 ],
+			"obj-36::obj-95" : [ "Steps[6]", "Steps", 0 ],
+			"obj-36::obj-96" : [ "Pulse[10]", "Pulse", 0 ],
+			"obj-37::obj-100" : [ "score[3]", "score", 0 ],
+			"obj-37::obj-105" : [ "rounding[3]", "rounding", 0 ],
+			"obj-37::obj-12" : [ "bypass[7]", "bypass", 0 ],
+			"obj-37::obj-14::obj-2" : [ "pastebang[6]", "pastebang", 0 ],
+			"obj-37::obj-71" : [ "notes[3]", "notes", 1 ],
+			"obj-37::obj-77::obj-2" : [ "pastebang[7]", "pastebang", 0 ],
 			"obj-3::obj-20" : [ "Freq[6]", "Freq", 0 ],
 			"obj-3::obj-22" : [ "TimeMode[1]", "TimeMode", 1 ],
 			"obj-3::obj-23" : [ "CV2[1]", "CV2", 0 ],
@@ -70350,6 +70674,54 @@
 			"obj-3::obj-55" : [ "power[1]", "power", 0 ],
 			"obj-3::obj-63" : [ "CV3[1]", "CV3", 0 ],
 			"obj-3::obj-95" : [ "ResCV[1]", "CV", 0 ],
+			"obj-42::obj-20" : [ "Freq[1]", "Freq", 0 ],
+			"obj-42::obj-22" : [ "TimeMode[2]", "TimeMode", 1 ],
+			"obj-42::obj-23" : [ "Offset[6]", "Offset", 0 ],
+			"obj-42::obj-51" : [ "CV2[5]", "CV2", 0 ],
+			"obj-42::obj-54" : [ "CV1[2]", "CV1", 0 ],
+			"obj-42::obj-55" : [ "power[2]", "power", 0 ],
+			"obj-42::obj-63" : [ "CV3[5]", "CV3", 0 ],
+			"obj-42::obj-68" : [ "Res[2]", "Res", 0 ],
+			"obj-42::obj-95" : [ "ResCV[2]", "CV", 0 ],
+			"obj-44::obj-1" : [ "Attack[9]", "Attack", 0 ],
+			"obj-44::obj-15" : [ "Legato[2]", "Legato", 0 ],
+			"obj-44::obj-20" : [ "Mute[11]", "Mute", 0 ],
+			"obj-44::obj-29" : [ "Decay[3]", "Decay", 0 ],
+			"obj-44::obj-31" : [ "Release[2]", "Release", 0 ],
+			"obj-44::obj-32" : [ "Sustain[2]", "Sustain", 0 ],
+			"obj-45::obj-33" : [ "Quadrants", "Quadrants", 0 ],
+			"obj-45::obj-55" : [ "Bypass[2]", "Bypass", 0 ],
+			"obj-45::obj-80" : [ "Response", "Response", 0 ],
+			"obj-47::obj-23" : [ "bypass[8]", "bypass", 0 ],
+			"obj-47::obj-28" : [ "Size[2]", "Size", 0 ],
+			"obj-47::obj-3" : [ "Regen[2]", "Regen", 0 ],
+			"obj-47::obj-60" : [ "Damp[2]", "Damp", 0 ],
+			"obj-47::obj-62" : [ "Dry[2]", "Dry", 0 ],
+			"obj-47::obj-63" : [ "Early[2]", "Early", 0 ],
+			"obj-47::obj-64" : [ "Tail[2]", "Tail", 0 ],
+			"obj-47::obj-65" : [ "Spread[2]", "Spread", 0 ],
+			"obj-47::obj-66" : [ "Time[2]", "Time", 0 ],
+			"obj-49::obj-106" : [ "CV3[6]", "CV3", 0 ],
+			"obj-49::obj-107" : [ "Linear[1]", "Linear", 0 ],
+			"obj-49::obj-11" : [ "PWM[1]", "PWM", 0 ],
+			"obj-49::obj-129" : [ "CV2[6]", "CV2", 0 ],
+			"obj-49::obj-36" : [ "PW[1]", "PW", 0 ],
+			"obj-49::obj-4" : [ "Waveform[1]", "Waveform", 0 ],
+			"obj-49::obj-45" : [ "FreqMode[2]", "FreqMode", 0 ],
+			"obj-49::obj-46" : [ "Offset[7]", "Offset", 0 ],
+			"obj-49::obj-51" : [ "Freq[8]", "Freq", 0 ],
+			"obj-49::obj-53" : [ "Mute[9]", "Mute", 0 ],
+			"obj-4::obj-129" : [ "GateTime[6]", "GateTime", 0 ],
+			"obj-4::obj-20" : [ "enable[3]", "enable", 0 ],
+			"obj-4::obj-27" : [ "led[3]", "led", 0 ],
+			"obj-4::obj-29" : [ "mute[11]", "mute", 0 ],
+			"obj-4::obj-34" : [ "Pulse[9]", "Pulse", 0 ],
+			"obj-50::obj-1" : [ "Attack[10]", "Attack", 0 ],
+			"obj-50::obj-15" : [ "Legato[3]", "Legato", 0 ],
+			"obj-50::obj-20" : [ "Mute[12]", "Mute", 0 ],
+			"obj-50::obj-29" : [ "Decay[4]", "Decay", 0 ],
+			"obj-50::obj-31" : [ "Release[3]", "Release", 0 ],
+			"obj-50::obj-32" : [ "Sustain[3]", "Sustain", 0 ],
 			"obj-5::obj-12" : [ "Mute[7]", "Mute", 0 ],
 			"obj-5::obj-20" : [ "Frequency", "Freq", 0 ],
 			"obj-6::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
@@ -70734,6 +71106,74 @@
 					"parameter_longname" : "Pulse[2]"
 				}
 ,
+				"obj-36::obj-120" : 				{
+					"parameter_longname" : "Max pulse[5]"
+				}
+,
+				"obj-36::obj-130" : 				{
+					"parameter_longname" : "mute[12]"
+				}
+,
+				"obj-36::obj-155" : 				{
+					"parameter_longname" : "Swing amount[6]"
+				}
+,
+				"obj-36::obj-157" : 				{
+					"parameter_longname" : "Swing enable[6]"
+				}
+,
+				"obj-36::obj-2" : 				{
+					"parameter_longname" : "trans_trig[3]"
+				}
+,
+				"obj-36::obj-22" : 				{
+					"parameter_longname" : "Pattern[3]"
+				}
+,
+				"obj-36::obj-25" : 				{
+					"parameter_longname" : "GateTime[7]"
+				}
+,
+				"obj-36::obj-28" : 				{
+					"parameter_longname" : "Sync[6]"
+				}
+,
+				"obj-36::obj-4" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-36::obj-89" : 				{
+					"parameter_longname" : "Reset[7]"
+				}
+,
+				"obj-36::obj-95" : 				{
+					"parameter_longname" : "Steps[6]"
+				}
+,
+				"obj-36::obj-96" : 				{
+					"parameter_longname" : "Pulse[10]"
+				}
+,
+				"obj-37::obj-100" : 				{
+					"parameter_longname" : "score[3]"
+				}
+,
+				"obj-37::obj-105" : 				{
+					"parameter_longname" : "rounding[3]"
+				}
+,
+				"obj-37::obj-12" : 				{
+					"parameter_longname" : "bypass[7]"
+				}
+,
+				"obj-37::obj-14::obj-2" : 				{
+					"parameter_longname" : "pastebang[6]"
+				}
+,
+				"obj-37::obj-77::obj-2" : 				{
+					"parameter_longname" : "pastebang[7]"
+				}
+,
 				"obj-3::obj-20" : 				{
 					"parameter_longname" : "Freq[6]"
 				}
@@ -70770,6 +71210,186 @@
 					"parameter_longname" : "ResCV[1]"
 				}
 ,
+				"obj-42::obj-20" : 				{
+					"parameter_longname" : "Freq[1]"
+				}
+,
+				"obj-42::obj-22" : 				{
+					"parameter_longname" : "TimeMode[2]"
+				}
+,
+				"obj-42::obj-23" : 				{
+					"parameter_longname" : "Offset[6]"
+				}
+,
+				"obj-42::obj-51" : 				{
+					"parameter_longname" : "CV2[5]"
+				}
+,
+				"obj-42::obj-54" : 				{
+					"parameter_longname" : "CV1[2]"
+				}
+,
+				"obj-42::obj-55" : 				{
+					"parameter_longname" : "power[2]"
+				}
+,
+				"obj-42::obj-63" : 				{
+					"parameter_longname" : "CV3[5]"
+				}
+,
+				"obj-42::obj-68" : 				{
+					"parameter_longname" : "Res[2]"
+				}
+,
+				"obj-42::obj-95" : 				{
+					"parameter_longname" : "ResCV[2]"
+				}
+,
+				"obj-44::obj-1" : 				{
+					"parameter_longname" : "Attack[9]"
+				}
+,
+				"obj-44::obj-15" : 				{
+					"parameter_longname" : "Legato[2]"
+				}
+,
+				"obj-44::obj-20" : 				{
+					"parameter_longname" : "Mute[11]"
+				}
+,
+				"obj-44::obj-29" : 				{
+					"parameter_longname" : "Decay[3]"
+				}
+,
+				"obj-44::obj-31" : 				{
+					"parameter_longname" : "Release[2]"
+				}
+,
+				"obj-44::obj-32" : 				{
+					"parameter_longname" : "Sustain[2]"
+				}
+,
+				"obj-45::obj-55" : 				{
+					"parameter_longname" : "Bypass[2]"
+				}
+,
+				"obj-47::obj-23" : 				{
+					"parameter_longname" : "bypass[8]"
+				}
+,
+				"obj-47::obj-28" : 				{
+					"parameter_longname" : "Size[2]"
+				}
+,
+				"obj-47::obj-3" : 				{
+					"parameter_longname" : "Regen[2]"
+				}
+,
+				"obj-47::obj-60" : 				{
+					"parameter_longname" : "Damp[2]"
+				}
+,
+				"obj-47::obj-62" : 				{
+					"parameter_longname" : "Dry[2]"
+				}
+,
+				"obj-47::obj-63" : 				{
+					"parameter_longname" : "Early[2]"
+				}
+,
+				"obj-47::obj-64" : 				{
+					"parameter_longname" : "Tail[2]"
+				}
+,
+				"obj-47::obj-65" : 				{
+					"parameter_longname" : "Spread[2]"
+				}
+,
+				"obj-47::obj-66" : 				{
+					"parameter_longname" : "Time[2]"
+				}
+,
+				"obj-49::obj-106" : 				{
+					"parameter_longname" : "CV3[6]"
+				}
+,
+				"obj-49::obj-107" : 				{
+					"parameter_longname" : "Linear[1]"
+				}
+,
+				"obj-49::obj-11" : 				{
+					"parameter_longname" : "PWM[1]"
+				}
+,
+				"obj-49::obj-129" : 				{
+					"parameter_longname" : "CV2[6]"
+				}
+,
+				"obj-49::obj-36" : 				{
+					"parameter_longname" : "PW[1]"
+				}
+,
+				"obj-49::obj-4" : 				{
+					"parameter_longname" : "Waveform[1]"
+				}
+,
+				"obj-49::obj-45" : 				{
+					"parameter_longname" : "FreqMode[2]"
+				}
+,
+				"obj-49::obj-46" : 				{
+					"parameter_longname" : "Offset[7]"
+				}
+,
+				"obj-49::obj-51" : 				{
+					"parameter_longname" : "Freq[8]"
+				}
+,
+				"obj-49::obj-53" : 				{
+					"parameter_longname" : "Mute[9]"
+				}
+,
+				"obj-4::obj-129" : 				{
+					"parameter_longname" : "GateTime[6]"
+				}
+,
+				"obj-4::obj-20" : 				{
+					"parameter_longname" : "enable[3]"
+				}
+,
+				"obj-4::obj-27" : 				{
+					"parameter_longname" : "led[3]"
+				}
+,
+				"obj-4::obj-29" : 				{
+					"parameter_longname" : "mute[11]"
+				}
+,
+				"obj-50::obj-1" : 				{
+					"parameter_longname" : "Attack[10]"
+				}
+,
+				"obj-50::obj-15" : 				{
+					"parameter_longname" : "Legato[3]"
+				}
+,
+				"obj-50::obj-20" : 				{
+					"parameter_longname" : "Mute[12]"
+				}
+,
+				"obj-50::obj-29" : 				{
+					"parameter_longname" : "Decay[4]"
+				}
+,
+				"obj-50::obj-31" : 				{
+					"parameter_longname" : "Release[3]"
+				}
+,
+				"obj-50::obj-32" : 				{
+					"parameter_longname" : "Sustain[3]"
+				}
+,
 				"obj-5::obj-12" : 				{
 					"parameter_longname" : "Mute[7]"
 				}
@@ -70799,6 +71419,54 @@
 , 			{
 				"name" : "background_sm.maxpat",
 				"bootpath" : "C74:/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.ADSR.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Envelope",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Gigaverb.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.LPF.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Filter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Metonomic Pulse.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Sequencer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Oscillator.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Oscillator",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Quantizer.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Quantizer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Sequencer.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Sequencer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.VCA.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Level",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -70858,48 +71526,64 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"1" : -11.905511811023743,
-						"2" : -72.0,
-						"3" : -32.314960629921316,
+						"1" : -17.007874015748129,
+						"2" : -29.480314960629997,
+						"3" : -34.582677165354383,
 						"4" : -72.0,
 						"Amt" : 0.0,
 						"Attack" : 2204.724409448817369,
+						"Attack[10]" : 632.455532033675922,
 						"Attack[1]" : 947.41616195493566,
 						"Attack[7]" : 377.952755905511822,
 						"Attack[8]" : 0.0,
+						"Attack[9]" : 632.455532033675922,
 						"Bypass" : 0.0,
 						"Bypass[1]" : 0.0,
+						"Bypass[2]" : 0.0,
 						"CV" : 76.377952755905525,
 						"CV1" : 0.0,
 						"CV1[1]" : 87.401574803149586,
+						"CV1[2]" : 29.921259842519675,
 						"CV2" : 0.0,
 						"CV2[1]" : 0.0,
 						"CV2[4]" : 68.50393700787393,
+						"CV2[5]" : 66.141732283464492,
+						"CV2[6]" : 0.0,
 						"CV3" : 0.0,
 						"CV3[1]" : 0.0,
 						"CV3[4]" : 49.606299212598373,
+						"CV3[5]" : 0.0,
+						"CV3[6]" : 0.0,
 						"ClockSelect" : 0.0,
 						"ClockSelect[1]" : 0.0,
 						"DSP" : 1.0,
 						"Damp" : 0.173228346456693,
 						"Damp[1]" : 0.228346456692915,
+						"Damp[2]" : 0.739370078740157,
 						"Dampen" : 25.196850393700775,
 						"DampenCV" : 0.000000000000043,
 						"Decay" : 5713.932229895252931,
 						"DecayCV" : 0.000000000000199,
 						"Decay[1]" : 3194.247190525174119,
 						"Decay[2]" : 100.0,
+						"Decay[3]" : 1997.396796824388503,
+						"Decay[4]" : 2879.28656060391495,
 						"Depth" : 29.559055118110194,
 						"Dry" : 0.78740157480315,
 						"Dry[1]" : 0.433070866141734,
+						"Dry[2]" : 1.0,
 						"Early" : 0.25,
 						"Early[1]" : 0.244094488188976,
+						"Early[2]" : 0.399606299212598,
 						"Feedback[1]" : -42.330708661417304,
 						"Freq" : 6763.827789816807126,
 						"FreqMode" : 1.0,
-						"Freq[5]" : 13695.380422577814898,
+						"FreqMode[2]" : 0.0,
+						"Freq[1]" : 13852.860737538441754,
+						"Freq[5]" : 10393.700787401583511,
 						"Freq[6]" : 8818.897637795269475,
 						"Freq[7]" : 8188.976377952746589,
+						"Freq[8]" : 6799.42898787798913,
 						"Frequency" : 70.07874015748034,
 						"Frequency[3]" : 52.755905511811065,
 						"GateTime" : 80.0,
@@ -70908,12 +71592,17 @@
 						"GateTime[3]" : 10.0,
 						"GateTime[4]" : 79.999999999999886,
 						"GateTime[5]" : 80.0,
+						"GateTime[6]" : 10.0,
+						"GateTime[7]" : 80.0,
 						"HPF[1]" : 8672.755905511805395,
 						"LPF[1]" : 4739.685039370061531,
 						"Legato" : 0.0,
 						"Legato[1]" : 0.0,
+						"Legato[2]" : 0.0,
+						"Legato[3]" : 0.0,
 						"Level" : -22.089611357896317,
 						"Linear" : 0.0,
+						"Linear[1]" : 0.0,
 						"Mix[1]" : 17.322834645669399,
 						"Mute" : 0.0,
 						"MuteCh1" : 0.0,
@@ -70921,6 +71610,8 @@
 						"MuteCh3" : 0.0,
 						"MuteCh4" : 0.0,
 						"Mute[10]" : 0.0,
+						"Mute[11]" : 0.0,
+						"Mute[12]" : 0.0,
 						"Mute[1]" : 0.0,
 						"Mute[2]" : 0.0,
 						"Mute[4]" : 0.0,
@@ -70928,80 +71619,110 @@
 						"Mute[6]" : 0.0,
 						"Mute[7]" : 0.0,
 						"Mute[8]" : 0.0,
+						"Mute[9]" : 0.0,
 						"NoiseType" : 0.0,
 						"Offset" : 0.0,
 						"Offset[2]" : 0.0,
 						"Offset[3]" : 0.0,
 						"Offset[4]" : 0.0,
 						"Offset[5]" : 0.0,
+						"Offset[6]" : 0.0,
+						"Offset[7]" : 0.363535978879256,
 						"OutputChannel" : 0.0,
-						"PW" : 50.0,
-						"PWM" : 61.417322834645603,
+						"PW" : 49.212598425196852,
+						"PWM" : 70.07874015748024,
+						"PWM[1]" : 19.685039370078705,
+						"PW[1]" : 28.740157480314991,
 						"Pattern" : 1.0,
 						"Pattern[1]" : 1.0,
 						"Pattern[2]" : 1.0,
+						"Pattern[3]" : 1.0,
+						"Quadrants" : 0.0,
 						"Quadrants[1]" : 0.0,
 						"RangeSwitch" : 0.0,
 						"RangeSwitch[1]" : 0.0,
 						"Ratio" : 37.60795275590548,
 						"Regen" : 0.350393700787402,
 						"Regen[1]" : 0.334645669291339,
+						"Regen[2]" : 0.673228346456693,
 						"Release" : 6724.409448818892997,
 						"Release[1]" : 5653.543307086611094,
+						"Release[2]" : 5464.566929133852682,
+						"Release[3]" : 2377.952755905511367,
 						"Res" : 0.0,
 						"ResCV" : 0.0,
 						"ResCV[1]" : 0.0,
+						"ResCV[2]" : 0.0,
 						"Res[1]" : 0.0,
+						"Res[2]" : 0.0,
+						"Response" : 0.0,
 						"Response[1]" : 0.0,
 						"Size" : 80.511811023621988,
-						"Size[1]" : 16.753543307086588,
+						"Size[1]" : 139.547244094488008,
+						"Size[2]" : 149.974981234360769,
 						"SpectraLFOShape[2]" : 1.0,
 						"Spread" : 48.19685039370075,
 						"Spread[1]" : 59.220472440944839,
+						"Spread[2]" : 63.944881889763714,
 						"Steps" : 14.0,
 						"Steps[1]" : 8.0,
 						"Steps[2]" : 7.0,
 						"Steps[4]" : 8.0,
 						"Steps[5]" : 16.0,
+						"Steps[6]" : 14.0,
 						"Sustain" : 34.645669291338614,
 						"Sustain[1]" : 69.212598425196873,
+						"Sustain[2]" : 69.212598425196845,
+						"Sustain[3]" : 70.0,
 						"Swing amount" : 0.0,
 						"Swing amount[1]" : 0.0,
 						"Swing amount[2]" : 0.0,
 						"Swing amount[4]" : 0.0,
 						"Swing amount[5]" : 0.0,
+						"Swing amount[6]" : 0.0,
 						"Swing enable" : 0.0,
 						"Swing enable[1]" : 0.0,
 						"Swing enable[2]" : 0.0,
 						"Swing enable[4]" : 0.0,
 						"Swing enable[5]" : 0.0,
+						"Swing enable[6]" : 0.0,
 						"Sync" : 0.0,
 						"Sync[1]" : 0.0,
 						"Sync[4]" : 0.0,
 						"Sync[5]" : 0.0,
+						"Sync[6]" : 0.0,
 						"Tail" : 0.62007874015748,
 						"Tail[1]" : 0.557086614173228,
+						"Tail[2]" : 0.549212598425196,
 						"Tempo" : 80.0,
 						"Time" : 15494.624265234300765,
-						"Time[1]" : 9448.911023622045832,
+						"Time[1]" : 15118.197637795274204,
+						"Time[2]" : 12659.980958147685669,
 						"Transport" : 1.0,
 						"Waveform" : 0.0,
+						"Waveform[1]" : 0.0,
 						"bypass" : 0.0,
 						"bypass[1]" : 0.0,
 						"bypass[2]" : 0.0,
 						"bypass[4]" : 0.0,
 						"bypass[5]" : 0.0,
 						"bypass[6]" : 0.0,
+						"bypass[7]" : 0.0,
+						"bypass[8]" : 0.0,
 						"enable" : 1.0,
 						"enable[1]" : 1.0,
 						"enable[2]" : 1.0,
+						"enable[3]" : 1.0,
 						"gatepct" : 80.0,
 						"gatepct[1]" : 80.0,
 						"live.text" : 0.0,
 						"live.text[1]" : 0.0,
 						"live.text[2]" : 0.0,
+						"live.text[3]" : 0.0,
 						"mute" : 0.0,
 						"mute[10]" : 0.0,
+						"mute[11]" : 0.0,
+						"mute[12]" : 0.0,
 						"mute[1]" : 0.0,
 						"mute[2]" : 0.0,
 						"mute[3]" : 0.0,
@@ -71011,47 +71732,58 @@
 						"mute[9]" : 0.0,
 						"power" : 0.0,
 						"power[1]" : 0.0,
+						"power[2]" : 0.0,
 						"rounding" : 1.0,
 						"rounding[1]" : 1.0,
 						"rounding[2]" : 1.0,
+						"rounding[3]" : 1.0,
 						"score" : 1.0,
 						"score[1]" : 1.0,
 						"score[2]" : 1.0,
+						"score[3]" : 1.0,
 						"trans_trig" : 1.0,
 						"trans_trig[1]" : 1.0,
 						"trans_trig[2]" : 1.0,
+						"trans_trig[3]" : 1.0,
 						"FreqMode[1]" : 0.0,
 						"TimeMode" : 0.0,
 						"TimeMode[1]" : 0.0,
+						"TimeMode[2]" : 0.0,
 						"blob" : 						{
 							"Impulse" : [ 0.0, 0.0, 0.346276253461838, 0.305459946393967, 0.203419119119644, 0.080970138311386, 0.080970138311386, 0.325868099927902, 0.631990551948547, 0.55035787820816, 0.489133417606354, 0.387092590332031, 0.356480360031128, 0.325868099927902, 0.244235441088676, 0.44831708073616, 0.44831708073616, 0.387092590332031, 0.325868099927902, 0.162602797150612, 0.121786467730999, 0.162602797150612, 0.346276253461838, 0.244235441088676, 0.183010950684547, 0.121786467730999, 0.06056197732687, 0.325868099927902, 0.244235441088676, 0.142194628715515, 0.080970138311386, 0.06056197732687, 0.142194628715515, 0.346276253461838, 0.183010950684547, 0.387092590332031, 0.295255869626999, 0.223827287554741, 0.121786467730999, 0.142194628715515, 0.203419119119644, 0.264643609523773, 0.366684436798096, 0.285051763057709, 0.203419119119644, 0.183010950684547, 0.346276253461838, 0.121786467730999, 0.203419119119644, 0.305459946393967, 0.468725234270096, 0.44831708073616, 0.407500743865967, 0.346276253461838, 0.325868099927902, 0.244235441088676, 0.203419119119644, 0.183010950684547, 0.183010950684547, 0.183010950684547, 0.183010950684547, 0.203419119119644, 0.223827287554741, 0.223827287554741 ],
 							"NoteGrid" : [ 3, 14, 1, 0, 14, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"NoteGrid[1]" : [ 3, 16, 1, 0, 16, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"NoteGrid[2]" : [ 3, 8, 1, 0, 8, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 2, 2, 2, 2, 2, 2, 2, 2 ],
+							"NoteGrid[3]" : [ 3, 14, 1, 0, 11, 0, 1000, 3000, 4000, 6000, 7000, 8000, 9000, 10000, 12000, 13000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"PatternGrid" : [ 3, 8, 1, 0, 2, 0, 4000, 2, 2, 2, 2, 2, 2, 2, 2 ],
 							"PatternGrid[1]" : [ 3, 7, 1, 0, 2, 0, 4000, 2, 2, 2, 2, 2, 2, 2 ],
 							"Pulse" : [ 0 ],
+							"Pulse[10]" : [ 4 ],
 							"Pulse[1]" : [ "1n" ],
 							"Pulse[2]" : [ 4 ],
 							"Pulse[3]" : [ "2nd" ],
-							"Pulse[4]" : [ 2.0 ],
+							"Pulse[4]" : [ 2 ],
 							"Pulse[5]" : [ "1nd" ],
 							"Pulse[7]" : [ "16n" ],
 							"Pulse[8]" : [ 4 ],
+							"Pulse[9]" : [ "4n" ],
 							"Reset" : [ 0 ],
 							"Reset[1]" : [ 0 ],
 							"Reset[4]" : [ 0 ],
 							"Reset[5]" : [ 0 ],
 							"Reset[6]" : [ 1 ],
+							"Reset[7]" : [ 0 ],
 							"Sequence" : [ 16, 14, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 14, 59.0, 80.0, 0, 0, 60, 101, 4, 48, 127, 63, 83, 4, 48, 127, 67, 57, 4, 50, 127, 74, 78, 4, 67, 127, 70, 35, 4, 51, 127, 67, 75, 4, 48, 127, 60, 114, 4, 46, 127, 70, 75, 4, 48, 127, 67, 59, 4, 62, 127, 79, 80, 4, 48, 127, 60, 100, 4, 36, 127, 70, 84, 4, 48, 127, 60, 114, 4, 34, 127, 63, 98, 4, 70, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
 							"Sequence[1]" : [ 16, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 57, 127, 63, 83, 4, 57, 127, 67, 57, 4, 57, 127, 74, 78, 4, 57, 127, 70, 35, 4, 57, 127, 67, 75, 4, 57, 127, 60, 114, 4, 57, 127, 70, 75, 4, 57, 127, 67, 59, 4, 57, 127, 79, 80, 4, 57, 127, 60, 100, 4, 57, 127, 70, 84, 4, 57, 127, 60, 114, 4, 57, 127, 63, 98, 4, 57, 127, 70, 97, 4, 57, 127, 62, 103, 4, 57, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
 							"Sequence[2]" : [ 16, 8, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 60, 101, 4, 41, 127, 63, 83, 4, 53, 127, 67, 57, 4, 42, 127, 74, 78, 4, 57, 127, 70, 35, 4, 45, 127, 67, 75, 4, 53, 127, 60, 114, 4, 53, 127, 70, 75, 4, 47, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
-							"delay_left[1]" : [ 14.0 ],
-							"delay_right[1]" : [ 14.0 ],
+							"Sequence[3]" : [ 16, 14, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 14, 59.0, 80.0, 0, 0, 60, 101, 4, 62, 127, 63, 83, 4, 86, 127, 67, 57, 4, 62, 127, 74, 78, 4, 62, 127, 70, 35, 4, 61, 127, 67, 75, 4, 61, 127, 60, 114, 4, 78, 127, 70, 75, 4, 95, 127, 67, 59, 4, 77, 127, 79, 80, 4, 98, 127, 60, 100, 4, 74, 127, 70, 84, 4, 74, 127, 60, 114, 4, 71, 127, 63, 98, 4, 100, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
+							"delay_left[1]" : [ 14 ],
+							"delay_right[1]" : [ 14 ],
 							"sync_source" : [ 0 ],
-							"notes" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
+							"notes" : [ 0, 1, 2, 1, 4, 1, 7, 1, 9, 1 ],
 							"notes[1]" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
-							"notes[2]" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ]
+							"notes[2]" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
+							"notes[3]" : [ 0, 1, 2, 1, 4, 1, 7, 1, 9, 1 ]
 						}
 
 					}
@@ -71074,48 +71806,64 @@
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"1" : -11.905511811023743,
-									"2" : -72.0,
-									"3" : -32.314960629921316,
+									"1" : -17.007874015748129,
+									"2" : -29.480314960629997,
+									"3" : -34.582677165354383,
 									"4" : -72.0,
 									"Amt" : 0.0,
 									"Attack" : 2204.724409448817369,
+									"Attack[10]" : 632.455532033675922,
 									"Attack[1]" : 947.41616195493566,
 									"Attack[7]" : 377.952755905511822,
 									"Attack[8]" : 0.0,
+									"Attack[9]" : 632.455532033675922,
 									"Bypass" : 0.0,
 									"Bypass[1]" : 0.0,
+									"Bypass[2]" : 0.0,
 									"CV" : 76.377952755905525,
 									"CV1" : 0.0,
 									"CV1[1]" : 87.401574803149586,
+									"CV1[2]" : 29.921259842519675,
 									"CV2" : 0.0,
 									"CV2[1]" : 0.0,
 									"CV2[4]" : 68.50393700787393,
+									"CV2[5]" : 66.141732283464492,
+									"CV2[6]" : 0.0,
 									"CV3" : 0.0,
 									"CV3[1]" : 0.0,
 									"CV3[4]" : 49.606299212598373,
+									"CV3[5]" : 0.0,
+									"CV3[6]" : 0.0,
 									"ClockSelect" : 0.0,
 									"ClockSelect[1]" : 0.0,
 									"DSP" : 1.0,
 									"Damp" : 0.173228346456693,
 									"Damp[1]" : 0.228346456692915,
+									"Damp[2]" : 0.739370078740157,
 									"Dampen" : 25.196850393700775,
 									"DampenCV" : 0.000000000000043,
 									"Decay" : 5713.932229895252931,
 									"DecayCV" : 0.000000000000199,
 									"Decay[1]" : 3194.247190525174119,
 									"Decay[2]" : 100.0,
+									"Decay[3]" : 1997.396796824388503,
+									"Decay[4]" : 2879.28656060391495,
 									"Depth" : 29.559055118110194,
 									"Dry" : 0.78740157480315,
 									"Dry[1]" : 0.433070866141734,
+									"Dry[2]" : 1.0,
 									"Early" : 0.25,
 									"Early[1]" : 0.244094488188976,
+									"Early[2]" : 0.399606299212598,
 									"Feedback[1]" : -42.330708661417304,
 									"Freq" : 6763.827789816807126,
 									"FreqMode" : 1.0,
-									"Freq[5]" : 13695.380422577814898,
+									"FreqMode[2]" : 0.0,
+									"Freq[1]" : 13852.860737538441754,
+									"Freq[5]" : 10393.700787401583511,
 									"Freq[6]" : 8818.897637795269475,
 									"Freq[7]" : 8188.976377952746589,
+									"Freq[8]" : 6799.42898787798913,
 									"Frequency" : 70.07874015748034,
 									"Frequency[3]" : 52.755905511811065,
 									"GateTime" : 80.0,
@@ -71124,12 +71872,17 @@
 									"GateTime[3]" : 10.0,
 									"GateTime[4]" : 79.999999999999886,
 									"GateTime[5]" : 80.0,
+									"GateTime[6]" : 10.0,
+									"GateTime[7]" : 80.0,
 									"HPF[1]" : 8672.755905511805395,
 									"LPF[1]" : 4739.685039370061531,
 									"Legato" : 0.0,
 									"Legato[1]" : 0.0,
+									"Legato[2]" : 0.0,
+									"Legato[3]" : 0.0,
 									"Level" : -22.089611357896317,
 									"Linear" : 0.0,
+									"Linear[1]" : 0.0,
 									"Mix[1]" : 17.322834645669399,
 									"Mute" : 0.0,
 									"MuteCh1" : 0.0,
@@ -71137,6 +71890,8 @@
 									"MuteCh3" : 0.0,
 									"MuteCh4" : 0.0,
 									"Mute[10]" : 0.0,
+									"Mute[11]" : 0.0,
+									"Mute[12]" : 0.0,
 									"Mute[1]" : 0.0,
 									"Mute[2]" : 0.0,
 									"Mute[4]" : 0.0,
@@ -71144,80 +71899,110 @@
 									"Mute[6]" : 0.0,
 									"Mute[7]" : 0.0,
 									"Mute[8]" : 0.0,
+									"Mute[9]" : 0.0,
 									"NoiseType" : 0.0,
 									"Offset" : 0.0,
 									"Offset[2]" : 0.0,
 									"Offset[3]" : 0.0,
 									"Offset[4]" : 0.0,
 									"Offset[5]" : 0.0,
+									"Offset[6]" : 0.0,
+									"Offset[7]" : 0.363535978879256,
 									"OutputChannel" : 0.0,
-									"PW" : 50.0,
-									"PWM" : 61.417322834645603,
+									"PW" : 49.212598425196852,
+									"PWM" : 70.07874015748024,
+									"PWM[1]" : 19.685039370078705,
+									"PW[1]" : 28.740157480314991,
 									"Pattern" : 1.0,
 									"Pattern[1]" : 1.0,
 									"Pattern[2]" : 1.0,
+									"Pattern[3]" : 1.0,
+									"Quadrants" : 0.0,
 									"Quadrants[1]" : 0.0,
 									"RangeSwitch" : 0.0,
 									"RangeSwitch[1]" : 0.0,
 									"Ratio" : 37.60795275590548,
 									"Regen" : 0.350393700787402,
 									"Regen[1]" : 0.334645669291339,
+									"Regen[2]" : 0.673228346456693,
 									"Release" : 6724.409448818892997,
 									"Release[1]" : 5653.543307086611094,
+									"Release[2]" : 5464.566929133852682,
+									"Release[3]" : 2377.952755905511367,
 									"Res" : 0.0,
 									"ResCV" : 0.0,
 									"ResCV[1]" : 0.0,
+									"ResCV[2]" : 0.0,
 									"Res[1]" : 0.0,
+									"Res[2]" : 0.0,
+									"Response" : 0.0,
 									"Response[1]" : 0.0,
 									"Size" : 80.511811023621988,
-									"Size[1]" : 16.753543307086588,
+									"Size[1]" : 139.547244094488008,
+									"Size[2]" : 149.974981234360769,
 									"SpectraLFOShape[2]" : 1.0,
 									"Spread" : 48.19685039370075,
 									"Spread[1]" : 59.220472440944839,
+									"Spread[2]" : 63.944881889763714,
 									"Steps" : 14.0,
 									"Steps[1]" : 8.0,
 									"Steps[2]" : 7.0,
 									"Steps[4]" : 8.0,
 									"Steps[5]" : 16.0,
+									"Steps[6]" : 14.0,
 									"Sustain" : 34.645669291338614,
 									"Sustain[1]" : 69.212598425196873,
+									"Sustain[2]" : 69.212598425196845,
+									"Sustain[3]" : 70.0,
 									"Swing amount" : 0.0,
 									"Swing amount[1]" : 0.0,
 									"Swing amount[2]" : 0.0,
 									"Swing amount[4]" : 0.0,
 									"Swing amount[5]" : 0.0,
+									"Swing amount[6]" : 0.0,
 									"Swing enable" : 0.0,
 									"Swing enable[1]" : 0.0,
 									"Swing enable[2]" : 0.0,
 									"Swing enable[4]" : 0.0,
 									"Swing enable[5]" : 0.0,
+									"Swing enable[6]" : 0.0,
 									"Sync" : 0.0,
 									"Sync[1]" : 0.0,
 									"Sync[4]" : 0.0,
 									"Sync[5]" : 0.0,
+									"Sync[6]" : 0.0,
 									"Tail" : 0.62007874015748,
 									"Tail[1]" : 0.557086614173228,
+									"Tail[2]" : 0.549212598425196,
 									"Tempo" : 80.0,
 									"Time" : 15494.624265234300765,
-									"Time[1]" : 9448.911023622045832,
+									"Time[1]" : 15118.197637795274204,
+									"Time[2]" : 12659.980958147685669,
 									"Transport" : 1.0,
 									"Waveform" : 0.0,
+									"Waveform[1]" : 0.0,
 									"bypass" : 0.0,
 									"bypass[1]" : 0.0,
 									"bypass[2]" : 0.0,
 									"bypass[4]" : 0.0,
 									"bypass[5]" : 0.0,
 									"bypass[6]" : 0.0,
+									"bypass[7]" : 0.0,
+									"bypass[8]" : 0.0,
 									"enable" : 1.0,
 									"enable[1]" : 1.0,
 									"enable[2]" : 1.0,
+									"enable[3]" : 1.0,
 									"gatepct" : 80.0,
 									"gatepct[1]" : 80.0,
 									"live.text" : 0.0,
 									"live.text[1]" : 0.0,
 									"live.text[2]" : 0.0,
+									"live.text[3]" : 0.0,
 									"mute" : 0.0,
 									"mute[10]" : 0.0,
+									"mute[11]" : 0.0,
+									"mute[12]" : 0.0,
 									"mute[1]" : 0.0,
 									"mute[2]" : 0.0,
 									"mute[3]" : 0.0,
@@ -71227,47 +72012,58 @@
 									"mute[9]" : 0.0,
 									"power" : 0.0,
 									"power[1]" : 0.0,
+									"power[2]" : 0.0,
 									"rounding" : 1.0,
 									"rounding[1]" : 1.0,
 									"rounding[2]" : 1.0,
+									"rounding[3]" : 1.0,
 									"score" : 1.0,
 									"score[1]" : 1.0,
 									"score[2]" : 1.0,
+									"score[3]" : 1.0,
 									"trans_trig" : 1.0,
 									"trans_trig[1]" : 1.0,
 									"trans_trig[2]" : 1.0,
+									"trans_trig[3]" : 1.0,
 									"FreqMode[1]" : 0.0,
 									"TimeMode" : 0.0,
 									"TimeMode[1]" : 0.0,
+									"TimeMode[2]" : 0.0,
 									"blob" : 									{
 										"Impulse" : [ 0.0, 0.0, 0.346276253461838, 0.305459946393967, 0.203419119119644, 0.080970138311386, 0.080970138311386, 0.325868099927902, 0.631990551948547, 0.55035787820816, 0.489133417606354, 0.387092590332031, 0.356480360031128, 0.325868099927902, 0.244235441088676, 0.44831708073616, 0.44831708073616, 0.387092590332031, 0.325868099927902, 0.162602797150612, 0.121786467730999, 0.162602797150612, 0.346276253461838, 0.244235441088676, 0.183010950684547, 0.121786467730999, 0.06056197732687, 0.325868099927902, 0.244235441088676, 0.142194628715515, 0.080970138311386, 0.06056197732687, 0.142194628715515, 0.346276253461838, 0.183010950684547, 0.387092590332031, 0.295255869626999, 0.223827287554741, 0.121786467730999, 0.142194628715515, 0.203419119119644, 0.264643609523773, 0.366684436798096, 0.285051763057709, 0.203419119119644, 0.183010950684547, 0.346276253461838, 0.121786467730999, 0.203419119119644, 0.305459946393967, 0.468725234270096, 0.44831708073616, 0.407500743865967, 0.346276253461838, 0.325868099927902, 0.244235441088676, 0.203419119119644, 0.183010950684547, 0.183010950684547, 0.183010950684547, 0.183010950684547, 0.203419119119644, 0.223827287554741, 0.223827287554741 ],
 										"NoteGrid" : [ 3, 14, 1, 0, 14, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"NoteGrid[1]" : [ 3, 16, 1, 0, 16, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"NoteGrid[2]" : [ 3, 8, 1, 0, 8, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 2, 2, 2, 2, 2, 2, 2, 2 ],
+										"NoteGrid[3]" : [ 3, 14, 1, 0, 11, 0, 1000, 3000, 4000, 6000, 7000, 8000, 9000, 10000, 12000, 13000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"PatternGrid" : [ 3, 8, 1, 0, 2, 0, 4000, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"PatternGrid[1]" : [ 3, 7, 1, 0, 2, 0, 4000, 2, 2, 2, 2, 2, 2, 2 ],
 										"Pulse" : [ 0 ],
+										"Pulse[10]" : [ 4 ],
 										"Pulse[1]" : [ "1n" ],
 										"Pulse[2]" : [ 4 ],
 										"Pulse[3]" : [ "2nd" ],
-										"Pulse[4]" : [ 2.0 ],
+										"Pulse[4]" : [ 2 ],
 										"Pulse[5]" : [ "1nd" ],
 										"Pulse[7]" : [ "16n" ],
 										"Pulse[8]" : [ 4 ],
+										"Pulse[9]" : [ "4n" ],
 										"Reset" : [ 0 ],
 										"Reset[1]" : [ 0 ],
 										"Reset[4]" : [ 0 ],
 										"Reset[5]" : [ 0 ],
 										"Reset[6]" : [ 1 ],
+										"Reset[7]" : [ 0 ],
 										"Sequence" : [ 16, 14, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 14, 59.0, 80.0, 0, 0, 60, 101, 4, 48, 127, 63, 83, 4, 48, 127, 67, 57, 4, 50, 127, 74, 78, 4, 67, 127, 70, 35, 4, 51, 127, 67, 75, 4, 48, 127, 60, 114, 4, 46, 127, 70, 75, 4, 48, 127, 67, 59, 4, 62, 127, 79, 80, 4, 48, 127, 60, 100, 4, 36, 127, 70, 84, 4, 48, 127, 60, 114, 4, 34, 127, 63, 98, 4, 70, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
 										"Sequence[1]" : [ 16, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 57, 127, 63, 83, 4, 57, 127, 67, 57, 4, 57, 127, 74, 78, 4, 57, 127, 70, 35, 4, 57, 127, 67, 75, 4, 57, 127, 60, 114, 4, 57, 127, 70, 75, 4, 57, 127, 67, 59, 4, 57, 127, 79, 80, 4, 57, 127, 60, 100, 4, 57, 127, 70, 84, 4, 57, 127, 60, 114, 4, 57, 127, 63, 98, 4, 57, 127, 70, 97, 4, 57, 127, 62, 103, 4, 57, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
 										"Sequence[2]" : [ 16, 8, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 60, 101, 4, 41, 127, 63, 83, 4, 53, 127, 67, 57, 4, 42, 127, 74, 78, 4, 57, 127, 70, 35, 4, 45, 127, 67, 75, 4, 53, 127, 60, 114, 4, 53, 127, 70, 75, 4, 47, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
-										"delay_left[1]" : [ 14.0 ],
-										"delay_right[1]" : [ 14.0 ],
+										"Sequence[3]" : [ 16, 14, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 16, 0, 1, 12, 0, 14, 59.0, 80.0, 0, 0, 60, 101, 4, 62, 127, 63, 83, 4, 86, 127, 67, 57, 4, 62, 127, 74, 78, 4, 62, 127, 70, 35, 4, 61, 127, 67, 75, 4, 61, 127, 60, 114, 4, 78, 127, 70, 75, 4, 95, 127, 67, 59, 4, 77, 127, 79, 80, 4, 98, 127, 60, 100, 4, 74, 127, 70, 84, 4, 74, 127, 60, 114, 4, 71, 127, 63, 98, 4, 100, 127, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 72, 4, 54, 18, 66, 45, 4, 38, 95, 54, 8, 4, 12, 3, 69, 70, 4, 2, 2, 63, 111, 4, 20, 99, 66, 25, 4, 119, 51, 50, 43, 4, 65, 105, 53, 83, 4, 91, 85, 48, 54, 4, 4, 29, 59, 93, 4, 0, 88, 49, 21, 4, 89, 79, 61, 73, 4, 73, 36, 49, 73, 4, 18, 44, 54, 66, 4, 70, 96, 53, 19, 4, 21, 46, 52, 16, 4, 56, 124, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 26, 4, 59, 19, 65, 67, 4, 8, 119, 70, 12, 4, 57, 75, 60, 19, 4, 48, 16, 48, 88, 4, 15, 7, 65, 98, 4, 44, 104, 61, 105, 4, 96, 104, 52, 9, 4, 10, 67, 59, 97, 4, 44, 41, 70, 51, 4, 64, 56, 60, 24, 4, 112, 91, 51, 40, 4, 44, 60, 69, 33, 4, 32, 27, 67, 32, 4, 61, 33, 68, 4, 4, 81, 16, 54, 81, 4, 67, 100, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 97, 4, 12, 108, 54, 25, 4, 46, 47, 58, 8, 4, 14, 103, 69, 78, 4, 25, 36, 60, 106, 4, 106, 71, 52, 54, 4, 127, 34, 67, 60, 4, 79, 44, 48, 69, 4, 34, 54, 61, 97, 4, 87, 17, 49, 10, 4, 28, 21, 58, 7, 4, 72, 57, 52, 86, 4, 112, 63, 68, 10, 4, 40, 24, 55, 60, 4, 124, 124, 68, 109, 4, 96, 118, 53, 125, 4, 17, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 60, 112, 4, 115, 82, 63, 1, 4, 63, 98, 66, 112, 4, 13, 25, 68, 125, 4, 110, 25, 54, 57, 4, 124, 122, 51, 117, 4, 82, 53, 51, 93, 4, 24, 79, 50, 114, 4, 123, 90, 51, 79, 4, 94, 90, 70, 92, 4, 11, 102, 65, 2, 4, 120, 115, 48, 30, 4, 98, 38, 53, 15, 4, 69, 42, 58, 10, 4, 98, 108, 65, 51, 4, 92, 33, 57, 55, 4, 125, 13, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 67, 126, 4, 64, 92, 67, 0, 4, 57, 54, 67, 45, 4, 10, 25, 57, 7, 4, 70, 61, 50, 107, 4, 111, 112, 61, 30, 4, 92, 56, 66, 76, 4, 27, 88, 67, 41, 4, 73, 23, 59, 73, 4, 119, 110, 53, 59, 4, 56, 111, 59, 16, 4, 121, 70, 58, 99, 4, 111, 0, 62, 32, 4, 1, 53, 57, 81, 4, 125, 120, 63, 86, 4, 99, 98, 68, 112, 4, 40, 53, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 58, 108, 4, 114, 7, 69, 90, 4, 6, 83, 56, 7, 4, 104, 33, 48, 54, 4, 44, 67, 48, 38, 4, 75, 120, 55, 94, 4, 115, 41, 49, 114, 4, 46, 76, 66, 52, 4, 43, 13, 59, 59, 4, 9, 71, 62, 104, 4, 17, 75, 61, 6, 4, 79, 68, 57, 40, 4, 12, 19, 50, 1, 4, 52, 62, 59, 93, 4, 121, 80, 63, 99, 4, 103, 80, 58, 62, 4, 90, 19, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 54, 43, 4, 45, 80, 68, 73, 4, 64, 41, 67, 99, 4, 106, 11, 52, 61, 4, 66, 41, 68, 22, 4, 76, 77, 57, 89, 4, 31, 68, 64, 39, 4, 87, 9, 61, 83, 4, 30, 30, 64, 125, 4, 47, 92, 63, 66, 4, 3, 100, 70, 105, 4, 58, 57, 52, 119, 4, 54, 30, 61, 111, 4, 64, 65, 60, 13, 4, 94, 93, 66, 109, 4, 86, 9, 48, 86, 4, 56, 62, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 55, 29, 4, 115, 24, 59, 38, 4, 30, 120, 66, 86, 4, 119, 117, 53, 24, 4, 65, 42, 48, 97, 4, 125, 98, 53, 105, 4, 122, 52, 67, 78, 4, 21, 115, 62, 60, 4, 114, 30, 60, 101, 4, 67, 79, 64, 97, 4, 72, 97, 52, 87, 4, 70, 24, 69, 16, 4, 64, 19, 59, 108, 4, 1, 83, 62, 25, 4, 124, 80, 52, 3, 4, 122, 11, 67, 19, 4, 35, 35, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 70, 14, 4, 105, 91, 56, 95, 4, 98, 119, 65, 69, 4, 73, 75, 58, 110, 4, 35, 106, 64, 16, 4, 23, 77, 66, 72, 4, 8, 15, 67, 15, 4, 7, 34, 63, 65, 4, 69, 119, 54, 49, 4, 71, 16, 57, 66, 4, 8, 93, 64, 107, 4, 79, 91, 52, 7, 4, 94, 59, 61, 13, 4, 118, 101, 60, 49, 4, 114, 44, 53, 10, 4, 64, 90, 51, 20, 4, 84, 126, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 112, 4, 52, 44, 62, 44, 4, 13, 22, 60, 69, 4, 33, 101, 56, 116, 4, 71, 87, 59, 75, 4, 55, 91, 53, 32, 4, 80, 123, 64, 65, 4, 24, 120, 52, 116, 4, 57, 55, 50, 58, 4, 66, 50, 70, 78, 4, 27, 84, 50, 73, 4, 118, 121, 61, 89, 4, 87, 101, 50, 26, 4, 55, 15, 48, 61, 4, 82, 27, 70, 101, 4, 112, 87, 49, 56, 4, 54, 17, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 63, 4, 94, 79, 66, 79, 4, 107, 124, 64, 5, 4, 118, 70, 60, 45, 4, 49, 127, 48, 64, 4, 41, 60, 65, 121, 4, 101, 27, 62, 24, 4, 120, 93, 55, 106, 4, 44, 71, 61, 2, 4, 48, 121, 54, 24, 4, 17, 13, 54, 75, 4, 88, 57, 69, 59, 4, 23, 25, 67, 98, 4, 19, 113, 64, 33, 4, 2, 55, 63, 124, 4, 4, 38, 66, 71, 4, 60, 76, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 62, 105, 4, 112, 80, 51, 105, 4, 15, 51, 61, 114, 4, 19, 15, 58, 126, 4, 26, 86, 63, 10, 4, 32, 21, 58, 99, 4, 61, 52, 50, 112, 4, 20, 32, 63, 60, 4, 65, 18, 68, 13, 4, 7, 3, 68, 49, 4, 73, 111, 61, 52, 4, 47, 71, 56, 90, 4, 64, 36, 59, 78, 4, 115, 9, 56, 92, 4, 60, 94, 57, 12, 4, 64, 25, 62, 23, 4, 99, 118, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 64, 39, 4, 69, 57, 66, 86, 4, 120, 16, 66, 47, 4, 50, 91, 63, 50, 4, 91, 100, 55, 118, 4, 37, 92, 63, 125, 4, 5, 79, 58, 46, 4, 114, 87, 58, 110, 4, 55, 66, 53, 24, 4, 66, 100, 70, 55, 4, 122, 14, 64, 83, 4, 110, 107, 60, 36, 4, 114, 77, 54, 26, 4, 67, 35, 52, 91, 4, 103, 51, 49, 102, 4, 122, 127, 59, 81, 4, 87, 77, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 52, 8, 4, 61, 96, 52, 110, 4, 53, 75, 60, 54, 4, 36, 41, 58, 72, 4, 54, 54, 61, 93, 4, 77, 30, 49, 50, 4, 99, 109, 68, 2, 4, 103, 8, 63, 87, 4, 50, 20, 70, 60, 4, 92, 45, 63, 19, 4, 6, 7, 66, 42, 4, 24, 40, 50, 63, 4, 95, 125, 53, 98, 4, 59, 28, 63, 120, 4, 32, 118, 66, 111, 4, 36, 74, 60, 91, 4, 43, 79, 1, 12, 0, 16, 48.0, 71.0, 0, 0, 56, 43, 4, 98, 24, 51, 13, 4, 117, 28, 55, 52, 4, 115, 74, 52, 45, 4, 2, 0, 49, 120, 4, 88, 20, 69, 10, 4, 127, 117, 59, 60, 4, 21, 60, 52, 121, 4, 21, 55, 58, 69, 4, 56, 103, 56, 120, 4, 95, 28, 59, 73, 4, 114, 52, 64, 99, 4, 47, 70, 70, 110, 4, 58, 27, 68, 121, 4, 58, 58, 51, 56, 4, 3, 14, 59, 76, 4, 99, 38 ],
+										"delay_left[1]" : [ 14 ],
+										"delay_right[1]" : [ 14 ],
 										"sync_source" : [ 0 ],
-										"notes" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
+										"notes" : [ 0, 1, 2, 1, 4, 1, 7, 1, 9, 1 ],
 										"notes[1]" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
-										"notes[2]" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ]
+										"notes[2]" : [ 2, 1, 4, 1, 7, 1, 9, 1, 11, 1 ],
+										"notes[3]" : [ 0, 1, 2, 1, 4, 1, 7, 1, 9, 1 ]
 									}
 
 								}
