@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1439.0, 913.0 ],
+		"rect" : [ 34.0, 77.0, 1439.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 547.0, 2080.0, 50.0, 36.0 ],
-					"text" : "3.64375"
+					"text" : "3.718229"
 				}
 
 			}
@@ -582,7 +582,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 709.691322078704843, 1752.783091013431658, 161.0, 22.0 ],
-					"text" : "636.297119 1126.43811"
+					"text" : "649.516968 1121.322876"
 				}
 
 			}
@@ -593,8 +593,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 733.354656047820981, 1712.37080854654323, 87.0, 22.0 ],
-					"text" : "route /leftHand"
+					"patching_rect" : [ 733.354656047820981, 1712.37080854654323, 101.0, 22.0 ],
+					"text" : "route /leftHand01"
 				}
 
 			}
@@ -11156,7 +11156,7 @@
 									}
 ,
 									"text" : "pattrstorage #0_patterns @savemode 0",
-									"varname" : "1036_patterns"
+									"varname" : "1035_patterns"
 								}
 
 							}
@@ -43526,7 +43526,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 146.0, 255.0, 0.588075101215052 ],
+									"bgcolor" : [ 0.0, 146.0, 255.0, 0.256388273253754 ],
 									"id" : "obj-25",
 									"ignoreclick" : 1,
 									"maxclass" : "textbutton",
@@ -48515,7 +48515,7 @@
 									}
 ,
 									"text" : "pattrstorage #0_patterns @savemode 0",
-									"varname" : "1068_patterns"
+									"varname" : "1058_patterns"
 								}
 
 							}

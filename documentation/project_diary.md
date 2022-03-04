@@ -57,4 +57,6 @@
 	▪ added secundary particle system for interaction with body representation
 	▪ started with ambient sound generation in MaxMsp
 	▪ added VSTs and connected ambient to kinect input
+	▪ added OSC to main patch and tested complete setup. Runs smoothly at 30fps and no audio glitches!
+	
 ### Week 11 - 07.03. - 11.03.:
