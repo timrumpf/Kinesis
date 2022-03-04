@@ -55,5 +55,6 @@
 	▪ 28.02.22: Complete Visual System up and running!
 	▪ fixed optical flow
 	▪ added secundary particle system for interaction with body representation
-    
+	▪ started with ambient sound generation in MaxMsp
+	▪ added VSTs and connected ambient to kinect input
 ### Week 11 - 07.03. - 11.03.:
