@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Tn3iBce6kULQTIfoci7Y6h" LanguageVersion="2021.4.7.900" Version="0.128">
-  <NugetDependency Id="EmCJLxeodhXNyNfxl3FZ4t" Location="VL.CoreLib" Version="2021.4.7-0900-gc93ca84fce" />
+<Document xmlns:p="property" Id="Tn3iBce6kULQTIfoci7Y6h" LanguageVersion="2021.4.8.923" Version="0.128">
+  <NugetDependency Id="EmCJLxeodhXNyNfxl3FZ4t" Location="VL.CoreLib" Version="2021.4.8-0923-g36602ba5c7" />
   <Patch Id="B9p6w1R3jc3M5xhzm9iId9">
     <Canvas Id="CRViavoivGOMux06h4NvWb" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -32,6 +32,8 @@
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
               <Pin Id="UidiCTvKBjEMLZ6MSuXAQk" Name="Condition" Kind="InputPin" />
+              <ControlPoint Id="MZ5NAmm7u69M3UtqbV0C7N" Bounds="402,686" Alignment="Bottom" />
+              <ControlPoint Id="ClxVz9HqpDkOYaCN23mqt7" Bounds="402,458" Alignment="Top" />
               <Patch Id="UXCRTc1S8kkMkvKAkZJ8ut" ManuallySortedPins="true">
                 <Patch Id="CiZ8POIE4xrMhckElb8Y9Y" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="FAecPxKuGaZLs8UdtVHmCI" Name="Then" ManuallySortedPins="true" />
@@ -89,10 +91,9 @@
                   <Pin Id="Fj9yWvXgYgQLmHKfz65hrr" Name="Data" Kind="InputPin" />
                   <Pin Id="CwBxa5AiGzJLUQQgpVMIJu" Name="Recreate" Kind="InputPin" />
                   <Pin Id="UxbqwYHGfOuQQ29yw8AKp7" Name="Output" Kind="OutputPin" />
+                  <Pin Id="JmC2UWUqWC9Lmz6m1yahaj" Name="Has Changed" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="MZ5NAmm7u69M3UtqbV0C7N" Bounds="402,686" Alignment="Bottom" />
-              <ControlPoint Id="ClxVz9HqpDkOYaCN23mqt7" Bounds="402,458" Alignment="Top" />
             </Node>
             <Node Bounds="386,412,25,19" Id="M0e8Y4844abOaDOeidx1Xv">
               <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
@@ -1354,11 +1355,13 @@
                 <Choice Kind="ProcessAppFlag" Name="ComputeSystem (Spectral)" />
               </p:NodeReference>
               <Pin Id="BlqVvKWxPdyMNqVsS3mZWs" Name="Resource Handler" Kind="InputPin" />
+              <Pin Id="EjeOMOMm68CQJrZDbjugCa" Name="UpdateGraphs" Kind="InputPin" />
               <Pin Id="S9xH9LxlVLBNYoazBwIxO8" Name="Input 4" Kind="InputPin" />
               <Pin Id="AF3agadG9UWP20CN44sej4" Name="Input 2" Kind="InputPin" />
               <Pin Id="LUiZFk5d8GAPJDisAsNYIk" Name="Name" Kind="InputPin" />
               <Pin Id="VZvLiGbwgRzNRi6uALTtrb" Name="Helper Enabled" Kind="InputPin" />
               <Pin Id="CTPqi3tP3SfO9zQ8zdLLhM" Name="Enabled" Kind="InputPin" />
+              <Pin Id="CHr1IrdaQ9dQCpuW6VHEuF" Name="State Output" Kind="OutputPin" />
               <Pin Id="ExF9foTkcOmMURwc75RyyM" Name="Output" Kind="StateOutputPin" />
               <Pin Id="HJXQQWldWudPCkC4bXTMf9" Name="Highest Ticket" Kind="OutputPin" />
               <Pin Id="PBicZKfZqGDMPYz9kDqtw2" Name="Helper Entity" Kind="OutputPin" />
@@ -1784,11 +1787,13 @@
                 <Choice Kind="ProcessAppFlag" Name="ComputeSystem (Spectral)" />
               </p:NodeReference>
               <Pin Id="CgBjgwYGdQiPBYqxx7fv6e" Name="Resource Handler" Kind="InputPin" />
+              <Pin Id="DcBeEXe0g3OOWr4ul1F1Hj" Name="UpdateGraphs" Kind="InputPin" />
               <Pin Id="PrJZI1xMMCHQDJLrtO2vmf" Name="Input 4" Kind="InputPin" />
               <Pin Id="GBa9KOeZFs5OL5SyeNaPCk" Name="Input 2" Kind="InputPin" />
               <Pin Id="V2CTPdxXFueNpHkI88H6Gq" Name="Name" Kind="InputPin" />
               <Pin Id="BqhAZH40KUALk7wdEopZVs" Name="Helper Enabled" Kind="InputPin" />
               <Pin Id="RGqPXlCHjVhOCHt4RazIYa" Name="Enabled" Kind="InputPin" />
+              <Pin Id="UN6rrPHCw0oM5Kqd34XtDm" Name="State Output" Kind="OutputPin" />
               <Pin Id="JzA7Wbg7mQNN9R8e9kXMtb" Name="Output" Kind="StateOutputPin" />
               <Pin Id="Mb5X8PrUDa5QFFRNtSMROI" Name="Highest Ticket" Kind="OutputPin" />
               <Pin Id="Ae9nxITNSzZOdLShs9eRX4" Name="Helper Entity" Kind="OutputPin" />
@@ -2428,6 +2433,10 @@
               <Pin Id="UA0I34BjEe6OkbYeImuWWo" Name="Force" Kind="InputPin" DefaultValue="True" />
               <Pin Id="AIxlTqPWijDMbFuW5DJwmT" Name="Dispose Cached Outputs" Kind="InputPin" />
               <Pin Id="Huerj12gtvtNzuyqYZd5W7" Name="Has Changed" Kind="OutputPin" />
+              <ControlPoint Id="SApwjwI8Bo5PV1Yj99dcIn" Bounds="198,690" Alignment="Top" />
+              <ControlPoint Id="P5C9cc7v96VQd7ffMU1xHm" Bounds="284,690" Alignment="Top" />
+              <ControlPoint Id="H4ZSYEdAwBBLlOGrFYYu4u" Bounds="219,790" Alignment="Bottom" />
+              <ControlPoint Id="CRTxg5BrGElPVnQAFXJq8g" Bounds="253,690" Alignment="Top" />
               <Patch Id="IRt072CpQI4NSBuw9VcVKv" ManuallySortedPins="true">
                 <Patch Id="D390baZY6VBNu6YiaC3C3d" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="PbBIvHWjZHJPhyVeCtc0I7" Name="Then" ManuallySortedPins="true" />
@@ -2442,6 +2451,7 @@
                   <Pin Id="FDfOaHwTw3wM7ZuTbxvJqb" Name="ColorTarget" Kind="InputPin" />
                   <Pin Id="SL61z7s6lQKMEIvY3NzLYo" Name="TheTemplate" Kind="InputPin" />
                   <Pin Id="A2Py06xgCFyOjA1UjA7EZm" Name="The Defined Streams" Kind="InputPin" />
+                  <Pin Id="GRrGLuzENpVNZ6vsUENoMM" Name="AutoCompile" Kind="InputPin" />
                   <Pin Id="CoWGRehP4iOL53aGhnKICg" Name="State Output" Kind="OutputPin" />
                   <Pin Id="Na1RExGtXOzMDjC51VBKz5" Name="Output" Kind="OutputPin" />
                   <Pin Id="LfeBK5BQavRPkjvqgnvamq" Name="lastError" Kind="OutputPin" />
@@ -2457,10 +2467,6 @@
                   <Pin Id="Ekfatr3E0qUOC5SzKRqfM7" Name="xyzw" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="SApwjwI8Bo5PV1Yj99dcIn" Bounds="198,690" Alignment="Top" />
-              <ControlPoint Id="P5C9cc7v96VQd7ffMU1xHm" Bounds="284,690" Alignment="Top" />
-              <ControlPoint Id="H4ZSYEdAwBBLlOGrFYYu4u" Bounds="219,790" Alignment="Bottom" />
-              <ControlPoint Id="CRTxg5BrGElPVnQAFXJq8g" Bounds="253,690" Alignment="Top" />
             </Node>
             <Node Bounds="-60,868,667,332" Id="OdpfZc3DVvAPsCO3FT2NdR">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
@@ -2865,11 +2871,13 @@
                 <Choice Kind="ProcessAppFlag" Name="ComputeSystem (Spectral)" />
               </p:NodeReference>
               <Pin Id="CiDW8ooNDZTPO9Q3wptT74" Name="Resource Handler" Kind="InputPin" />
+              <Pin Id="KgAyZusLXc0LBEisGLfNff" Name="UpdateGraphs" Kind="InputPin" />
               <Pin Id="AeAyQAOHxHwNVA3zmOTPlj" Name="Input 4" Kind="InputPin" />
               <Pin Id="CMc7kFywiA5P5R8wXPGP0q" Name="Input 2" Kind="InputPin" />
               <Pin Id="CKGW4q4y9fjNK96W1NgfWB" Name="Name" Kind="InputPin" />
               <Pin Id="GgvSMItvxuDOPRArzdFtk8" Name="Helper Enabled" Kind="InputPin" />
               <Pin Id="JgpMRU22eu0Ok0c0CHcczx" Name="Enabled" Kind="InputPin" />
+              <Pin Id="ItoSZU1kYpRMop0IG89xe0" Name="State Output" Kind="OutputPin" />
               <Pin Id="KOg3EWPiz9UOsmYXL6oOvQ" Name="Output" Kind="StateOutputPin" />
               <Pin Id="GKXg19R6lDgMmy98Po84vv" Name="Highest Ticket" Kind="OutputPin" />
               <Pin Id="BNglfouELAbMe1vtvscHr0" Name="Helper Entity" Kind="OutputPin" />
@@ -5116,9 +5124,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Qxl1GJiDvXSMzITzlMGj3T" Location="VL.CoreLib" Version="2021.4.7-0900-gc93ca84fce" />
-  <NugetDependency Id="B7Rb5YlnkHmOWgZHJTTHWV" Location="VL.Fuse" Version="0.1.5" />
+  <NugetDependency Id="Qxl1GJiDvXSMzITzlMGj3T" Location="VL.CoreLib" Version="2021.4.8-0923-g36602ba5c7" />
+  <NugetDependency Id="B7Rb5YlnkHmOWgZHJTTHWV" Location="VL.Fuse" Version="0.1.8" />
   <NugetDependency Id="Ld3e36ytEQZOVNgCDWuABZ" Location="VL.IO.PLY" Version="0.0.5-alpha" />
-  <NugetDependency Id="DZrahuffNXEPhZTJ4otA3F" Location="VL.Stride" Version="2021.4.7-0900-gc93ca84fce" />
+  <NugetDependency Id="DZrahuffNXEPhZTJ4otA3F" Location="VL.Stride" Version="2021.4.8-0923-g36602ba5c7" />
   <NugetDependency Id="Of5EaooCjoaQUOy12tsTn1" Location="VL.Devices.Kinect2" Version="1.2.1" />
 </Document>
