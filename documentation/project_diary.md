@@ -51,12 +51,13 @@
 ## March 
 
 ### Week 10 - 28.02. - 06.03.:
-	▪ ringbuffer too heavy in combination -> added writing snaps to disk -> solved
-	▪ 28.02.22: Complete Visual System up and running!
-	▪ fixed optical flow
-	▪ added secundary particle system for interaction with body representation
-	▪ started with ambient sound generation in MaxMsp
-	▪ added VSTs and connected ambient to kinect input
-	▪ added OSC to main patch and tested complete setup. Runs smoothly at 30fps and no audio glitches!
-	
+	• ringbuffer too heavy in combination -> added writing snaps to disk -> solved
+	• 28.02.22: Complete Visual System up and running!
+	• fixed optical flow
+	• added secundary particle system for interaction with body representation
+	• started with ambient sound generation in MaxMsp
+	• added VSTs and connected ambient to kinect input
+	• added OSC to main patch and tested complete setup. Runs smoothly at 30fps and no audio glitches!
+	• made a satisfying OF Mode!
+	• made continous body representation snaps for timedisplacement effect
 ### Week 11 - 07.03. - 11.03.:
