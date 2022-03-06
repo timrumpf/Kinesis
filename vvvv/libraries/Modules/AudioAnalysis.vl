@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="V0L2TuWvlcHQM8eke8eBPs" LanguageVersion="2021.4.7.870" Version="0.128">
-  <NugetDependency Id="O5KAxUOIbWkP5UNb43YAGK" Location="VL.CoreLib" Version="2021.4.7-0870-g5fce380896" />
+<Document xmlns:p="property" Id="V0L2TuWvlcHQM8eke8eBPs" LanguageVersion="2021.4.8.923" Version="0.128">
+  <NugetDependency Id="O5KAxUOIbWkP5UNb43YAGK" Location="VL.CoreLib" Version="2021.4.8-0923-g36602ba5c7" />
   <Patch Id="OQBgbjYUMkZMnmIIeXB1ad">
     <Canvas Id="Iam26cVWeZeNJDQEZ3tjDc" DefaultCategory="AudioAnalysis" CanvasType="FullCategory">
       <!--
@@ -182,7 +182,7 @@
               </p:NodeReference>
               <Pin Id="LIMfn9bPRdkMNPJf4vVzNb" Name="Input" Kind="InputPin" />
               <Pin Id="BhdgVatxJcUO71XXZ8rNaM" Name="Level" Kind="OutputPin" />
-              <Pin Id="FmYcG96t5VxPXIXtuOYsZk" Name="Level dBs" Kind="OutputPin" />
+              <Pin Id="BNPqFZ0V8CnQH2CX9ULHag" Name="Level dBFS" Kind="OutputPin" />
             </Node>
             <Pad Id="MNHN6dqFDBtMiwIYVbEpJC" Comment="" Bounds="123,437,29,101" ShowValueBox="true" isIOBox="true">
               <p:ValueBoxSettings>
@@ -226,7 +226,7 @@
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="Kwj5413QOVpL8j8CVx3l1u" Comment="Responsiveness" Bounds="289,320,35,15" ShowValueBox="true" isIOBox="true" Value="0.05">
+            <Pad Id="Kwj5413QOVpL8j8CVx3l1u" Comment="Responsiveness" Bounds="289,320,35,15" ShowValueBox="true" isIOBox="true" Value="0.69">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
@@ -325,6 +325,37 @@
               <Pin Id="DXWk5fObwhbL8WQUDmUCtn" Name="Input" Kind="StateInputPin" />
               <Pin Id="TSNBlZo8jvYNlQZlmeyMfo" Name="Result" Kind="OutputPin" />
             </Node>
+            <Node Bounds="582,109" Id="HQkfnJ0Wso1QLGp9A86OAB">
+              <p:NodeReference LastCategoryFullName="Audio" LastSymbolSource="VL.Audio.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="Category" Name="Audio" />
+                <Choice Kind="ProcessAppFlag" Name="DriverSettings" />
+              </p:NodeReference>
+              <Pin Id="ROTIgMF1NtDMhKSeSNWa93" Name="Driver" Kind="InputPin" />
+              <Pin Id="NmWn8Blx7RRNzpc8XjzC69" Name="Sample Rate" Kind="InputPin" />
+              <Pin Id="CDueh5Sie4PLqXFqlHtpRN" Name="Wasapi Input" Kind="InputPin" />
+              <Pin Id="BQNT5CJSyxiL6fcL9LnuxX" Name="Desired Input Channels" Kind="InputPin" />
+              <Pin Id="KafjopVzPMMMpSaK9QLKYP" Name="Desired Input Channel Offset" Kind="InputPin" />
+              <Pin Id="KdRoBqzm0vRP2zsCJtYYOz" Name="Desired Output Channels" Kind="InputPin" />
+              <Pin Id="GHUHb3jX24IOea3EUo66CT" Name="Desired Output Channel Offset" Kind="InputPin" />
+              <Pin Id="TrgdNV2qcsEO3ThXxAr2AB" Name="Show Control Panel" Kind="InputPin" />
+              <Pin Id="OMbek2HClEXOcXiOylVsmk" Name="Enabled" Kind="InputPin" />
+              <Pin Id="TvPf2qwgu00NL5P9AzGP8m" Name="Selected Driver" Kind="OutputPin" />
+              <Pin Id="TKmyhVcg26BO3mYeO2VQ8u" Name="Sample Rate" Kind="OutputPin" />
+              <Pin Id="C3sriCB877kOVEv7CQOkfu" Name="Buffer Size" Kind="OutputPin" />
+              <Pin Id="FY01zsDPFkALSG5aH8d3bv" Name="Selected WASAPI Input Device" Kind="OutputPin" />
+              <Pin Id="BtTpmsOimqxNUQCZXwKrj8" Name="Available Input Channels" Kind="OutputPin" />
+              <Pin Id="SrRMcDk9nXpQX6iuQxiQNU" Name="Open Input Channels" Kind="OutputPin" />
+              <Pin Id="SdJpRZp0a3BPIpg8pDGzhy" Name="Available Output Channels" Kind="OutputPin" />
+              <Pin Id="DVO0n9ySMq3QAr16T1RPkz" Name="Open Output Channels" Kind="OutputPin" />
+              <Pin Id="VCe5PzJabVfLjuxnPh3WtS" Name="Last Error" Kind="OutputPin" />
+              <Pin Id="C8EikEAJoKEQZXAhXc1yls" Name="Is ASIO" Kind="OutputPin" />
+            </Node>
+            <Pad Id="CFlZU02I2y6PbgtxpXVmyt" Comment="Wasapi Input" Bounds="622,72,321,15" ShowValueBox="true" isIOBox="true" Value="Stereomix (Realtek High Definition Audio)">
+              <p:TypeAnnotation LastCategoryFullName="Audio" LastSymbolSource="VL.Audio.vl">
+                <Choice Kind="TypeFlag" Name="WasapiInputDevice" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <Patch Id="JTt94fInUlYMPOeVEeww3w" Name="Create" />
           <ProcessDefinition Id="CkiAXvfXzqxLeh0veJUk0z" HasStateOut="true">
@@ -452,6 +483,7 @@
           <Link Id="IalnqfQTHbbPSEmMnhO335" Ids="TSNBlZo8jvYNlQZlmeyMfo,Cw2NTpbzwy2MO8sdFZ9qCc" />
           <Link Id="QnVtN34PkPqObMqtNhuBv8" Ids="TSNBlZo8jvYNlQZlmeyMfo,NkLRRbaYl3kOPldlrlUPsf" />
           <Link Id="EUI1Dw6k2POQVPZvTHQC8I" Ids="TSNBlZo8jvYNlQZlmeyMfo,PZcuTs6tWGKQXwiZ86133S" />
+          <Link Id="A24qTZu5ixmQOrVBebGpZW" Ids="CFlZU02I2y6PbgtxpXVmyt,CDueh5Sie4PLqXFqlHtpRN" />
         </Patch>
       </Node>
     </Canvas>
@@ -476,6 +508,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O3GKSo8uTp4Nh1Df7gDMOZ" Location="VL.Stride" Version="2021.4.7-0870-g5fce380896" />
-  <NugetDependency Id="HztjZApOnseMT8zUzZNga6" Location="VL.Audio" Version="0.6.1-alpha" />
+  <NugetDependency Id="O3GKSo8uTp4Nh1Df7gDMOZ" Location="VL.Stride" Version="2021.4.8-0923-g36602ba5c7" />
+  <NugetDependency Id="HztjZApOnseMT8zUzZNga6" Location="VL.Audio" Version="1.0.3" />
 </Document>
