@@ -61,3 +61,6 @@
 	• made a satisfying OF Mode!
 	• made continous body representation snaps for timedisplacement effect
 ### Week 11 - 07.03. - 11.03.:
+	• added option for switching between animation and instant value tweaking in content patch
+	• added a less harmonic ambient sound option for fading based on viusal mode
+	• finally added audio reactivity
