@@ -1,9 +1,9 @@
 # Documentation
 
-This is the [**Project Diary**](https://github.com/IndiaAparicio/freedomGame/blob/master/documentations/documentation.md) of the project. 
+This is the [**Project Diary**](https://github.com/TimSBB/Kinesis/blob/main/documentation/project_diary.md) of the project. 
 
-The [**Setup Requirements**](https://github.com/IndiaAparicio/freedomGame/blob/master/documentations/presentations/final-presentation.pdf) can be found here.
+The [**Setup Requirements**](https://github.com/TimSBB/Kinesis/blob/main/documentation/project_setup.md) can be found here.
 
-This is the [**HowTo**](https://github.com/IndiaAparicio/freedomGame). For getting the installation running.
+This is the [**HowTo**](https://github.com/TimSBB/Kinesis/blob/main/documentation/HowTo.md). For getting the installation running.
 
 Checkout the videos in `Kinesis/documentation/mileStones` to see work in progress documentation!
