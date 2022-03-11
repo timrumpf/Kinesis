@@ -64,3 +64,5 @@
 	• added option for switching between animation and instant value tweaking in content patch
 	• added a less harmonic ambient sound option for fading based on viusal mode
 	• finally added audio reactivity
+	• forgot to update the diary: animated and documented the project. 
+	Would love to have more time now. The system is working great and now I would like to actually work with it.

@@ -1,0 +1,19 @@
+# How To
+
+Guide on __*How To Run Kinesis*__
+
+## First Steps
+
+- Connect projector and speakers to PC
+- Start PC and projector
+- Open the `Ambient.maxpat` in `Kinesis/max`
+- Open the `Kinesis.vl` in `Kinesis/vvvv`
+- ! the renderer is white at first, then black with one or more pink dots ! 
+- the system is ready as soon as you see colorful renderer.
+
+By default the patch is set to play and loop. The only thing that is not implemented yet to start completely autonomously is the detection of a person that enters the room. So just for initialization `OnPersonEnter` needs to be triggered once by rightclicking the bang. Then it will loop infintely. See below
+
+![Initalize](./img/startInstallation.gif)
+
+Depending on the setup, it can be that the transformation variable in the content node needs to be set once. It readjusts everything depending on the hight and angle of the Kinect. In my test setup. The Kinect is attatched to the wall above the projection at 2m hight and looking down in a 45° angle.
+This is something that I would try to make easier, so people that don't know VVVV can setup the installation entirely
