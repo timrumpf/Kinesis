@@ -10,8 +10,7 @@
   
 ### Hardware
 
-- PC running VVVV and Max Msp (has to be Windows)
+- PC (decent Graphics Card) running VVVV and Max Msp (has to be Windows)
 - Projector
 - Speakers
 - Microsoft Kinect ONE (= 2nd Generation)
-
