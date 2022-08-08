@@ -20,3 +20,5 @@
 
 ### Day 4 - 08.08.22: 
 * fixed kinect replacement, probability emitter now working with bibcam (Problem was new VL.Fuse version)
+* cleaned patch to be ready for contribution
+* FIXME: replace buffer with texcoord patching to be compatible with newest VL.Fuse version
