@@ -11,3 +11,12 @@
 * FIXME: problem with compression and color channels
 * FIXME: need to figure out how to rotate properly
 * FIXME: Fix projection for particle positions & coloring
+
+### Day 3 - 07.08.22: 
+* fixed color channel glitch in BarCode
+* fixed rotation
+* fixed projection
+* FIXME: struggled to replace kinect position input with Bibcam input in Kinesis System
+
+### Day 4 - 08.08.22: 
+* fixed kinect replacement, probability emitter now working with bibcam (Problem was new VL.Fuse version)
