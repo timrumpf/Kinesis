@@ -22,3 +22,10 @@
 * fixed kinect replacement, probability emitter now working with bibcam (Problem was new VL.Fuse version)
 * cleaned patch to be ready for contribution
 * FIXME: replace buffer with texcoord patching to be compatible with newest VL.Fuse version
+
+### Day 5 - 09.08.22: 
+* fixed buffer issue (FIXME: Still not running with Fuse newer than 0.1.8)
+* added example patches (glowing Spheres, Lines, distance-based NoiseRipple, Boxes(InstancedRenderer is broken))
+* added alembic points to Fuse reader
+* added ply reader
+* need new footage for proper documentation (no Iphone yet)
