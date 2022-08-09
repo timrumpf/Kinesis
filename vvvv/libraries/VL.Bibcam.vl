@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="JDAogTQ2E7BQMttdMjfiKa" LanguageVersion="2021.4.11.1054" Version="0.128">
-  <NugetDependency Id="SWxKP2ePdWSPKLLHMT48nQ" Location="VL.CoreLib" Version="2021.4.11-1054-g40a1427505" />
+<Document xmlns:p="property" Id="JDAogTQ2E7BQMttdMjfiKa" LanguageVersion="2021.4.10.1043" Version="0.128">
+  <NugetDependency Id="SWxKP2ePdWSPKLLHMT48nQ" Location="VL.CoreLib" Version="2021.4.10" />
   <Patch Id="Isrzc42nYiHP92c0DatdRd">
     <Canvas Id="KOkKasTPDa1PBvXIFRgoTi" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -1350,6 +1350,7 @@
               <Pin Id="E7vUtn7Sx52OrJrt3ezhJA" Name="Data" Kind="InputPin" />
               <Pin Id="Hop8sf54MApMZfnqH2QT16" Name="Recreate" Kind="InputPin" DefaultValue="False" />
               <Pin Id="TUBCbeF9EHgOojdygA6L3t" Name="Output" Kind="OutputPin" />
+              <Pin Id="E7Jp59LXPgzNqsNSYsdMz4" Name="Has Changed" Kind="OutputPin" />
             </Node>
             <Node Bounds="-774,230,169,19" Id="OUSXe0tUfZRNZfOAWGC30t">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
@@ -2556,6 +2557,7 @@
               <Pin Id="NOMRPSWiOoUOHA4fjIWzFa" Name="Data" Kind="InputPin" />
               <Pin Id="HBpm3G1yJedPPUDX5fHbCX" Name="Recreate" Kind="InputPin" DefaultValue="False" />
               <Pin Id="Vm3cyell5exOqp2vPzpSqE" Name="Output" Kind="OutputPin" />
+              <Pin Id="QFrLtKkBQFVMAGTAkkWUrE" Name="Has Changed" Kind="OutputPin" />
             </Node>
             <Pad Id="JHKVuDiTElbQPy0or1pK2R" SlotId="JQThfw3vVwjOBfd4T8Gadt" Bounds="-332,1247" />
             <Pad Id="CpDReDexs4KNTNW9QjzZmI" SlotId="JQThfw3vVwjOBfd4T8Gadt" Bounds="391,826" />
@@ -2579,7 +2581,7 @@
             <ControlPoint Id="G7RYW7JWp4bNoNGVeLCArh" Bounds="1459,257" />
             <ControlPoint Id="L3kC2MpUU1qQJGy3V39U9x" Bounds="1480,280" />
             <ControlPoint Id="R8n7XIxHMtZM2iueUTQdpM" Bounds="1417,211" />
-            <ControlPoint Id="QYPviwg7zR5OJLkgpOhfjN" Bounds="1584,688" />
+            <ControlPoint Id="QYPviwg7zR5OJLkgpOhfjN" Bounds="1345,697" />
             <Overlay Id="HBM1mW4pJwKNchnBxJz2SV" Name="RGB2Hue" Bounds="308,1159,608,1143" />
             <Overlay Id="DN8Ynsoq0hQMSFAUNZVuQo" Name="DecodeDepth" Bounds="935,1159,417,686" />
             <Overlay Id="E6r6BN772ILOTNMI3tULXg" Name="UVDepthToFull" Bounds="534,763,256,268" />
@@ -3208,28 +3210,6 @@
           <Link Id="TBlR61GxgnWPQTsS0Y6rvn" Ids="L3kC2MpUU1qQJGy3V39U9x,FviohhOecX1MxMMy3P4zDz" IsHidden="true" />
           <Link Id="M5tJyKXCUcQLWnH8KNMOiX" Ids="VIOAsJPnGOtP654DxUSI8m,R8n7XIxHMtZM2iueUTQdpM" />
           <Link Id="MLy1avNZCdTMvCPHEVfnA8" Ids="R8n7XIxHMtZM2iueUTQdpM,T2L4j8S8CHKM7lkWaVD91j" IsHidden="true" />
-          <Patch Id="AhHo3KJdKMONBwxrdm2j92" Name="Create" />
-          <Patch Id="Iy2yRhaiFjEM1E1Mdde4eD" Name="Update">
-            <Pin Id="RirGa4geDK8PeVF2ZzRi9L" Name="Input" Kind="InputPin" Bounds="454,-153">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Texture" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="BGWYdpffdwfNswO565jYXV" Name="color" Kind="OutputPin" Bounds="67,2475" />
-            <Pin Id="HDYEPZyQQsmLyGlV2Mxl7S" Name="bodyMask" Kind="OutputPin" Bounds="237,2467" />
-            <Pin Id="TtxOboidjTxPIcVPbXGHEj" Name="distanceToWorldPosition" Kind="OutputPin" Bounds="983,2459" />
-            <Pin Id="C5Ma8HddL6EPQvhj2oeizr" Name="CameraPosition" Kind="OutputPin" Bounds="460,413" />
-            <Pin Id="LZloaPIljDNOZqSHrLEHac" Name="CameraRotation" Kind="OutputPin" Bounds="559,413" />
-            <Pin Id="AZDXSP5xaXrPWdfYEnfNcK" Name="centerShiftX" Kind="OutputPin" Bounds="670,413" />
-            <Pin Id="H2Qpefj3rMiMqR3Y7kIMee" Name="centerShiftY" Kind="OutputPin" Bounds="765,449" />
-            <Pin Id="G5ojEKZBNJbOCoxLH9vKHk" Name="fov" Kind="OutputPin" Bounds="866,456" />
-            <Pin Id="IxqcZzvXWkbOTaXJIop9q4" Name="rangeNear" Kind="OutputPin" Bounds="939,458" />
-            <Pin Id="T2L4j8S8CHKM7lkWaVD91j" Name="rangeFar" Kind="OutputPin" Bounds="1848,211" />
-            <Pin Id="S5qpCYOgsj7PAiiv3SHQ2B" Name="range" Kind="OutputPin" Bounds="992,449" />
-            <Pin Id="S9y0QY6q6x4MnETK22nsZj" Name="inverseViewMatrix" Kind="OutputPin" Bounds="1068,449" />
-            <Pin Id="FviohhOecX1MxMMy3P4zDz" Name="RayParam" Kind="OutputPin" Bounds="1187,460" />
-            <Pin Id="HxrFKzTogiDLN1gWl9yXt8" Name="pixelCount" Kind="OutputPin" Bounds="1564,667" />
-          </Patch>
           <Link Id="CPMx0nzzUPkOKC8nefwuZI" Ids="M2G4c9I5zm1PVnAtbGu7uI,QYPviwg7zR5OJLkgpOhfjN" />
           <Link Id="TxWnUzVhZOULmY2roa2kK0" Ids="QYPviwg7zR5OJLkgpOhfjN,HxrFKzTogiDLN1gWl9yXt8" IsHidden="true" />
           <Link Id="FmATFCoBYgsMjGZGn9pIEa" Ids="FU1Pi2sOZ7JQUKOFjA0BV3,QSi36LErdRvMVuAMcuEbwn" />
@@ -3287,6 +3267,28 @@
           <Link Id="S9QmdVRbWMxN897pTTTdA6" Ids="NvJRIkOwiN3P5y4dkZko9I,SbB17DRWVLRLQl5oQsLnUQ" />
           <Link Id="H9XVcgk2YT3MaLZJOpwTpr" Ids="VZAQwYcmC4dNDWWyeEKyyD,Vg6QMTiR1NOLWhcqdkdvCT" />
           <Link Id="D0UE5FrOJZ2NwiF54qi3Bz" Ids="KWnH1gzjhYaOlRBUmY5atY,UC7vYSFGlmlLjBQ2sLi67u" />
+          <Patch Id="AhHo3KJdKMONBwxrdm2j92" Name="Create" />
+          <Patch Id="Iy2yRhaiFjEM1E1Mdde4eD" Name="Update">
+            <Pin Id="RirGa4geDK8PeVF2ZzRi9L" Name="Input" Kind="InputPin" Bounds="454,-153">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Texture" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="BGWYdpffdwfNswO565jYXV" Name="color" Kind="OutputPin" Bounds="67,2475" />
+            <Pin Id="HDYEPZyQQsmLyGlV2Mxl7S" Name="bodyMask" Kind="OutputPin" Bounds="237,2467" />
+            <Pin Id="TtxOboidjTxPIcVPbXGHEj" Name="distanceToWorldPosition" Kind="OutputPin" Bounds="983,2459" />
+            <Pin Id="C5Ma8HddL6EPQvhj2oeizr" Name="CameraPosition" Kind="OutputPin" Bounds="460,413" />
+            <Pin Id="LZloaPIljDNOZqSHrLEHac" Name="CameraRotation" Kind="OutputPin" Bounds="559,413" />
+            <Pin Id="AZDXSP5xaXrPWdfYEnfNcK" Name="centerShiftX" Kind="OutputPin" Bounds="670,413" />
+            <Pin Id="HxrFKzTogiDLN1gWl9yXt8" Name="pixelCount" Kind="OutputPin" Bounds="1564,667" />
+            <Pin Id="H2Qpefj3rMiMqR3Y7kIMee" Name="centerShiftY" Kind="OutputPin" Bounds="765,449" />
+            <Pin Id="G5ojEKZBNJbOCoxLH9vKHk" Name="fov" Kind="OutputPin" Bounds="866,456" />
+            <Pin Id="IxqcZzvXWkbOTaXJIop9q4" Name="rangeNear" Kind="OutputPin" Bounds="939,458" />
+            <Pin Id="T2L4j8S8CHKM7lkWaVD91j" Name="rangeFar" Kind="OutputPin" Bounds="1848,211" />
+            <Pin Id="S5qpCYOgsj7PAiiv3SHQ2B" Name="range" Kind="OutputPin" Bounds="992,449" />
+            <Pin Id="S9y0QY6q6x4MnETK22nsZj" Name="inverseViewMatrix" Kind="OutputPin" Bounds="1068,449" />
+            <Pin Id="FviohhOecX1MxMMy3P4zDz" Name="RayParam" Kind="OutputPin" Bounds="1187,460" />
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -3600,6 +3602,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IERpW32VUEoQMVzJ38FHpZ" Location="VL.Stride" Version="2021.4.11-1054-g40a1427505" />
-  <NugetDependency Id="VJ0DNWMWQEFQTgGCFOGsyF" Location="VL.Fuse" Version="0.0.0.0" />
+  <NugetDependency Id="IERpW32VUEoQMVzJ38FHpZ" Location="VL.Stride" Version="2021.4.10" />
+  <NugetDependency Id="VJ0DNWMWQEFQTgGCFOGsyF" Location="VL.Fuse" Version="0.2.0" />
 </Document>
