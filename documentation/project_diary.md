@@ -19,7 +19,7 @@
 * FIXME: struggled to replace kinect position input with Bibcam input in Kinesis System
 
 ### Day 4 - 08.08.22: 
-* fixed kinect replacement, probability emitter now working with bibcam (Problem was new VL.Fuse version)
+* fixed kinect replacement, probability emitter now working with Bibcam (Problem was new VL.Fuse version)
 * cleaned patch to be ready for contribution
 * FIXME: replace buffer with texcoord patching to be compatible with newest VL.Fuse version
 
@@ -29,3 +29,18 @@
 * added alembic points to Fuse reader
 * added ply reader
 * need new footage for proper documentation (no Iphone yet)
+
+### Day 6 - 10.08.22: 
+* added alembic model to Fuse reader
+* created an example project in Blender
+* issue with reading animation from Blender export -> made vvvv forum post
+* added Vl.Stride.3dtext to fuse reading
+* made an example patch for a text transition effect
+
+### Day 7 - 11.08.22: 
+* achieved 4/5 of the planned next Steps
+    * Explore Point Clouds -> done
+    * Find a way to use animated meshes (alemebic, obj, VAT) -> done
+    * Find a way to use real footage (Runway Depth Estimation, Keijiro's Bibcam) -> done
+    * See VL.Stride.Text3D , or text to SDF -> done
+    * Setup non-realtime rendering pipeline -> NOT DONE
