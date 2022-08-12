@@ -44,3 +44,11 @@
     * Find a way to use real footage (Runway Depth Estimation, Keijiro's Bibcam) -> done
     * See VL.Stride.Text3D , or text to SDF -> done
     * Setup non-realtime rendering pipeline -> NOT DONE
+
+### Day 8 - 12.08.22: 
+* achieved 45/5 of the planned next Steps
+    * Explore Point Clouds -> done
+    * Find a way to use animated meshes (alemebic, obj, VAT) -> done
+    * Find a way to use real footage (Runway Depth Estimation, Keijiro's Bibcam) -> done
+    * See VL.Stride.Text3D , or text to SDF -> done
+    * Setup non-realtime rendering pipeline -> done
