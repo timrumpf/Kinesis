@@ -52,3 +52,7 @@
     * Find a way to use real footage (Runway Depth Estimation, Keijiro's Bibcam) -> done
     * See VL.Stride.Text3D , or text to SDF -> done
     * Setup non-realtime rendering pipeline -> done
+
+### Day 9 - 17.08.22: 
+* got apple devices from Angela
+* try to build and run Bibcam on iPad
