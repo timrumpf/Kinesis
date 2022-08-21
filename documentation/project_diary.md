@@ -56,3 +56,12 @@
 ### Day 9 - 17.08.22: 
 * got apple devices from Angela
 * try to build and run Bibcam on iPad
+* didn't succed building the app with windows machine
+
+### Day 10 - 18.08.22: 
+* got mac book from Anna and succeeded building the Bibcam app
+* shot test footage
+
+### Day 11 - 19.08.22: 
+* tried to achieve some nice visual ouputs, struggled with different kinds of footage
+* realized that indoor footage and footage with distinctive humam motion in it and without extreme angles or mirroring surfaces works best.
