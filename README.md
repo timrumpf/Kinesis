@@ -1,16 +1,8 @@
-## Kinesis
-*An interactive audio visual exploration of change and motion in time and space.*
+## Kinesis - Non-realtime functionalities
 
-Moments are being reflected in a time warping mirror  –  everything is and then dissolves. While time is in motion everything flows. Everything we do leaves behind traces.  
-The project invites the user to explore time and space experimentally.
+Originally *Kinesis* is a interactive installation based on the KINECT.
+This Branch is an addition to the system with WIP explorations of non-realtime functionalities that could augment the interactive experience or result in an animated video based on the existing system.
 
-The installation is set up with a Microsoft Kinect ONE, a pair of speakers, a projector and a PC running vvvv gamma and MaxMSP.
-The movement of the user is being tracked and influences the soundscape and the visuals at the same time. The tracking part and also the generation of the visuals happen within vvvv, the tracking data however is transferred via OSC to MaxMSP that generates the reactive audio layer.
+For the interactive System check the other branch [**here**](https://github.com/TimSBB/Kinesis).
 
-[![Kinesis](./Kinesis_Hero.png)](https://vimeo.com/manage/videos/687254045 "Kinesis")
-
-The [**Documentation**](https://github.com/TimSBB/Kinesis/tree/main/documentation) can be found here.
-
-This is the [**Trailer**](https://vimeo.com/manage/videos/687254045).
-
-Here you'll find a description of [**How To**](https://github.com/TimSBB/Kinesis/blob/main/documentation/HowTo.md) run the installation.
+A [**project Diary**](https://github.com/timrumpf/Kinesis/blob/video/documentation/project_diary.md) can be found here.
