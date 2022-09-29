@@ -46,7 +46,7 @@
     * Setup non-realtime rendering pipeline -> NOT DONE
 
 ### Day 8 - 12.08.22: 
-* achieved 45/5 of the planned next Steps
+* achieved 5/5 of the planned next Steps
     * Explore Point Clouds -> done
     * Find a way to use animated meshes (alemebic, obj, VAT) -> done
     * Find a way to use real footage (Runway Depth Estimation, Keijiro's Bibcam) -> done

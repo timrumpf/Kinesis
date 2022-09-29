@@ -320,7 +320,7 @@
               <Choice Kind="ProcessAppFlag" Name="BrightFilter" />
               <CategoryReference Kind="Category" Name="PostFX" NeedsToBeDirectParent="true" />
             </p:NodeReference>
-            <Pin Id="BCpxG0FUmOdON90dQvVFx4" Name="Threshold" Kind="InputPin" DefaultValue="0.5">
+            <Pin Id="BCpxG0FUmOdON90dQvVFx4" Name="Threshold" Kind="InputPin" DefaultValue="0.64">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
@@ -597,7 +597,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="UV29HCPQf3IPpiskrFUbjo" Name="Bounds" Kind="InputPin" DefaultValue="963, 511, 958, 488" />
+            <Pin Id="UV29HCPQf3IPpiskrFUbjo" Name="Bounds" Kind="InputPin" DefaultValue="7, 36, 1482, 860" />
             <Pin Id="RyxMtqxcBtxNIPG7Mrpjgm" Name="Input" Kind="InputPin" />
             <Pin Id="CfcIosbuh1vOgJCVCDdEYk" Name="Camera" Kind="InputPin" />
             <Pin Id="Iypwms1b091NR1hUPn2qRb" Name="Enable Default Camera" Kind="InputPin" />
@@ -717,7 +717,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="F1hpkIhNxmjM2RKv3XT1C3" Name="Bounds" Kind="InputPin" DefaultValue="961, 31, 958, 488">
+            <Pin Id="F1hpkIhNxmjM2RKv3XT1C3" Name="Bounds" Kind="InputPin" DefaultValue="1389, 37, 521, 862">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -880,12 +880,12 @@
             <Pin Id="BcNPH9R820DOGfMDWpc8Iu" Name="Pow" Kind="InputPin" DefaultValue="1.62" />
             <Pin Id="JIOyYI51ek3LWUwSy7QTKH" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="OjOSDU52TcWLPp28A6gpC9" Comment="" Bounds="2076,1460,35,15" ShowValueBox="true" isIOBox="true" Value="10">
+          <Pad Id="OjOSDU52TcWLPp28A6gpC9" Comment="" Bounds="2076,1460,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Hmm12T0yYKqL489QZsd5z6" Comment="Pow" Bounds="2060,1393,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+          <Pad Id="Hmm12T0yYKqL489QZsd5z6" Comment="Pow" Bounds="2060,1393,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -2262,7 +2262,7 @@
             <Pin Id="BDGJduL2eYFL3mMbAoYaJG" Name="Play" Kind="InputPin" />
             <Pin Id="TrLNbvjAHv4QHkPUSHq8aj" Name="Rate" Kind="InputPin" />
             <Pin Id="NeIf2c4cPgkMHW9ZbhDGQu" Name="Seek Time" Kind="InputPin" />
-            <Pin Id="BobWlVBuNLrNpGbNVORsCy" Name="Seek" Kind="InputPin" />
+            <Pin Id="BobWlVBuNLrNpGbNVORsCy" Name="Seek" Kind="InputPin" DefaultValue="False" />
             <Pin Id="GXxZxoIShZGQQXpWjjkY9d" Name="Loop Start Time" Kind="InputPin" />
             <Pin Id="GMq9cvY4IHcOywFUDuyeaW" Name="Loop End Time" Kind="InputPin" />
             <Pin Id="HeY7Z26Khi6PNOOeRf7o5i" Name="Loop" Kind="InputPin" />
@@ -2274,7 +2274,7 @@
             <Pin Id="NqUpbSTScA1NWs5L7QoEpW" Name="Ready State" Kind="OutputPin" />
             <Pin Id="FNohRfZWWNJMzmGBHohPqz" Name="Error Code" Kind="OutputPin" />
           </Node>
-          <Pad Id="BKBY7guRZgJNqWFaUF57lQ" Comment="Filename" Bounds="685,274,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\..\Users\tim-r\Dropbox\CTech\01_Courses\01_SS_22\2ndTermProject\Assets\Record_0819_1521_13.MP4">
+          <Pad Id="BKBY7guRZgJNqWFaUF57lQ" Comment="Filename" Bounds="685,274,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\..\Users\tim-r\Dropbox\CTech\01_Courses\01_SS_22\2ndTermProject\Assets\Record_0819_1518_32.MP4">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -2286,6 +2286,15 @@
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="J9ACp3VJJC9MuLMnJeK2c5" Comment="Seek" Bounds="867,318,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
@@ -2522,6 +2531,7 @@
         <Link Id="BFbZ9U9vyUWQUkEs2cdHDs" Ids="AokAgFJPb3NLCtz3VkiyJ2,BDGJduL2eYFL3mMbAoYaJG" />
         <Link Id="N1DDpWSW5IJPNMb3EJ96uo" Ids="AokAgFJPb3NLCtz3VkiyJ2,HeY7Z26Khi6PNOOeRf7o5i" />
         <Link Id="QdjGrSUf20INWCcQOBmk8e" Ids="ObaVQvG1LoWN0dBIhRRJ1r,QaAyD25nZCRLPseGULBKGU" />
+        <Link Id="BPb5213HnljOZtwHjb7K4F" Ids="J9ACp3VJJC9MuLMnJeK2c5,BobWlVBuNLrNpGbNVORsCy" />
       </Patch>
     </Node>
   </Patch>
