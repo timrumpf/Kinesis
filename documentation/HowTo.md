@@ -20,3 +20,5 @@ Guide on __*How To Run Kinesis*__
 
 Depending on the setup, it can be that the transformation variable in the content node needs to be set once. It readjusts everything depending on the hight and angle of the Kinect. In my test setup. The Kinect is attatched to the wall above the projection at 2m hight and looking down in a 45° angle.
 This is something that I would try to make easier, so people that don't know VVVV can setup the installation entirely.
+
+For more detailed info's refer to this [Miro Board]([https://duckduckgo.com](https://miro.com/app/board/uXjVPHW5M0w=/?share_link_id=838551012172) "Kinesis Setup & issues").
